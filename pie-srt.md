@@ -8,7 +8,7 @@
 [字幕](./pie-srt/ep54.mp3) 
 
 [第53期 又到每年两会时](https://pie.wetime.com/podcast-player/186/ep53.mp3)	
-[字幕](./pie-srt/ep53.mp3) 
+[字幕](./pie-srt/ep53.mp3.srt) 
 
 [第52期 大变与大争之世来了吗](https://pie.wetime.com/podcast-player/184/ep52.mp3)	
 [字幕](./pie-srt/ep52.mp3.srt) 
