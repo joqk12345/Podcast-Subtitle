@@ -9,7 +9,7 @@
 2. Whisper Auto Transcribe，是一款字幕生成的开源项目，可以为为 mp3 配上 “字幕”（srt、vtt 格式），详细内容请参考，[Whisper Auto Transcribe](https://github.com/tomchang25/whisper-auto-transcribe)。
 
 # 详细内容
-1. [pie-srt](./pie-srt.md)
+1. [后互联网时代的乱弹-字幕](./pie-srt.md)
 
 # 贡献
 1. 欢迎大家提issues、pr。
