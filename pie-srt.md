@@ -11,7 +11,7 @@
 [字幕](./pie-srt/ep53.mp3) 
 
 [第52期 大变与大争之世来了吗](https://pie.wetime.com/podcast-player/184/ep52.mp3)	
-[字幕](./pie-srt/ep52.mp3) 
+[字幕](./pie-srt/ep52.mp3.srt) 
 
 [第51期 ChatGPT展示的未来](https://pie.wetime.com/podcast-player/182/ep51.mp3)	
 [字幕](./pie-srt/ep51.mp3) 
