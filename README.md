@@ -6,7 +6,7 @@
 # 采用的开源项目
 
 1. Whisper 是 OpenAI 推出的语音转换文字的人工智能工具包，支持很多种语言，目前本repo采用 OpenAI whisper  large 模型。具体whisper详细内容请参考[Whisper](https://github.com/openai/whisper/)。
-2. Whisper Auto Transcribe，是一款字幕生成的开源项目，可以为为 mp3 配上 “字幕”（srt、vtt 格式），详细内容请参考，[Whisper Auto Transcribe](https://github.com/tomchang25/whisper-auto-transcribe)。
+2. Whisper Auto Transcribe，是一款字幕生成的开源项目，可以为 mp3 配上 “字幕”（srt、vtt 格式），详细内容请参考，[Whisper Auto Transcribe](https://github.com/tomchang25/whisper-auto-transcribe)。
 
 # 详细内容
 1. [后互联网时代的乱弹-字幕](./pie-srt.md)
