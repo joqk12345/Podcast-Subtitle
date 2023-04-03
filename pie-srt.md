@@ -1,3 +1,6 @@
+[第56期 摩尔老师走好 摩尔定律永生](https://pie.wetime.com/episodes/pie-ep56.mp3)	
+[字幕](./pie-srt/ep56.mp3.srt) 
+
 [特别篇 · 一周年活动实录](https://pie.wetime.com/podcast-player/193/sp1.mp3)	
 [字幕](./pie-srt/sp1.mp3.srt) 
 
