@@ -1,0 +1,3 @@
+This conversation discusses the history of computer development, beginning with the invention of the transistor by William Shockley in 1947. It then goes on to discuss the founding of Intel and the development of Moore's Law, which states that the number of transistors and resistors on a semiconductor chip doubles every year. It also mentions the changes in the chip and integrated circuit industry since the founding of Golden Mall, and how China is expected to master the entire chip industry chain in the next 5-10 years.
+
+这次谈话讨论了计算机发展的历史，从威廉-肖克利在1947年发明晶体管开始。接着讨论了英特尔公司的成立和摩尔定律的发展，摩尔定律指出，半导体芯片上的晶体管和电阻的数量每年翻一番。它还提到了自Golden Mall成立以来芯片和集成电路行业的变化，以及中国如何在未来5-10年内掌握整个芯片产业链。
