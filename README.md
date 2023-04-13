@@ -12,6 +12,10 @@
 1. [后互联网时代的乱弹-字幕](./pie-srt.md)
    1. total duration: 96h:25m:41s,[每个音频明细](./pie-srt/duration.csv)
 
+# 更新
+1. 支持了字幕(SRT/Subtitle)；
+2. 同时支持了Markdown & Html格式；
+
 # 贡献
 1. 欢迎大家提issues、pr。
 

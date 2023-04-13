@@ -1,12 +1,12 @@
 [第57期 好学韭菜的防割指南](https://pie.wetime.com/episodes/pie-ep57.mp3)	
-[字幕](./pie-srt/pie-ep57.mp3.srt) 
-[markdown](./pie-markdown/pie-ep57.mp3.md) 
-[html](./pie-html/pie-ep57.mp3.html) 
+[字幕](./pie-srt/ep57.mp3.srt) 
+[markdown](./pie-markdown/ep57.mp3.md) 
+[html](./pie-html/ep57.mp3.html) 
 
 [第56期 摩尔老师走好 摩尔定律永生](https://pie.wetime.com/episodes/pie-ep56.mp3)	
-[字幕](./pie-srt/pie-ep56.mp3.srt) 
-[markdown](./pie-markdown/pie-ep56.mp3.md) 
-[html](./pie-html/pie-ep56.mp3.html) 
+[字幕](./pie-srt/ep56.mp3.srt) 
+[markdown](./pie-markdown/ep56.mp3.md) 
+[html](./pie-html/ep56.mp3.html) 
 
 [特别篇 · 一周年活动实录](https://pie.wetime.com/podcast-player/193/sp1.mp3)	
 [字幕](./pie-srt/sp1.mp3.srt) 
