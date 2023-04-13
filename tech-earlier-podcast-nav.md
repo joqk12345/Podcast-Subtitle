@@ -1,0 +1,5 @@
+[AI大神贾扬清离职阿里后首次受访:创业为什么不做大模型｜硅谷徐老师 S7E07](https://media.fireside.fm/file/fireside-audio/podcasts/audio/4/4931937e-0184-4c61-a658-6b03c254754d/episodes/1/193948b4-389d-492d-9a93-f4a099d14002/193948b4-389d-492d-9a93-f4a099d14002.mp3)
+[ Page Detail ](https://guiguzaozhidao.fireside.fm/20220158)	
+[字幕](./podcast/tech-earlier/srt/S7E07.mp3.srt) 
+[markdown](./podcast/tech-earlier/markdown/S7E07.mp3.md) 
+[html](./podcast/tech-earlier/html/S7E07.mp3.html) 

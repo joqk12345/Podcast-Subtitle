@@ -1,7 +1,8 @@
 # Podcast-Subtitle
 
-为 “后互联网时代的乱弹” 播客 提供字幕内容，喜欢听音频的朋友请移步到[主站](https://pie.wetime.com/)，[B站](https://space.bilibili.com/760331/channel/collectiondetail?sid=276050/)。
+1. 为 “后互联网时代的乱弹” 播客 提供字幕内容，喜欢听音频的朋友请移步到[主站](https://pie.wetime.com/)，[B站](https://space.bilibili.com/760331/channel/collectiondetail?sid=276050/)。
 
+2. 新增科技早知道，字幕内容，喜欢听音频的朋友可以移步到[主站](https://guiguzaozhidao.fireside.fm/episodes)
 
 # 采用的开源项目
 
@@ -11,7 +12,7 @@
 # 详细内容
 1. [后互联网时代的乱弹-导航](./pie-podcast-nav.md)
    1. total duration: 96h:25m:41s,[每个音频明细](./pie-srt/duration.csv)
-
+2. [科技早知道-导航](./tech-earlier-podcast-nav.md)
 # 更新
 1. 支持了字幕(SRT/Subtitle)；
 2. 同时支持了Markdown & Html格式；
