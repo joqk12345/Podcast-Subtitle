@@ -9,7 +9,7 @@
 2. Whisper Auto Transcribe，是一款字幕生成的开源项目，可以为 mp3 配上 “字幕”（srt、vtt 格式），详细内容请参考，[Whisper Auto Transcribe](https://github.com/tomchang25/whisper-auto-transcribe)。
 
 # 详细内容
-1. [后互联网时代的乱弹-字幕](./pie-srt.md)
+1. [后互联网时代的乱弹-导航](./pie-podcast-nav.md)
    1. total duration: 96h:25m:41s,[每个音频明细](./pie-srt/duration.csv)
 
 # 更新
