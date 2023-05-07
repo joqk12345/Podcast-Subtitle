@@ -1,3 +1,18 @@
+[第60期 互联网广告的那些事](https://pie.wetime.com/episodes/pie-ep60.mp3)	
+[字幕](./pie-srt/ep60.mp3.srt) 
+[markdown](./pie-markdown/ep60.mp3.md) 
+[html](./pie-html/ep60.mp3.html) 
+
+[第59期 科普的又一春来了](https://pie.wetime.com/episodes/pie-ep59.mp3)	
+[字幕](./pie-srt/ep59.mp3.srt) 
+[markdown](./pie-markdown/ep59.mp3.md) 
+[html](./pie-html/ep59.mp3.html) 
+
+[第58期 人工智能该怎么帮我们](https://pie.wetime.com/episodes/pie-ep58.mp3)	
+[字幕](./pie-srt/ep58.mp3.srt) 
+[markdown](./pie-markdown/ep58.mp3.md) 
+[html](./pie-html/ep58.mp3.html) 
+
 [第57期 好学韭菜的防割指南](https://pie.wetime.com/episodes/pie-ep57.mp3)	
 [字幕](./pie-srt/ep57.mp3.srt) 
 [markdown](./pie-markdown/ep57.mp3.md) 
