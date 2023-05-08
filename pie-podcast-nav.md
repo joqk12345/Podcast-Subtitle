@@ -1,3 +1,8 @@
+[第61期 操作系统怎么才算“国产”](https://cdn2.wavpub.com/cdn.wavpub.com/media/audio/pie-ep61.mp3)	
+[字幕](./pie-srt/ep61.mp3.srt) 
+[markdown](./pie-markdown/ep61.mp3.md) 
+[html](./pie-html/ep61.mp3.html) 
+
 [第60期 互联网广告的那些事](https://pie.wetime.com/episodes/pie-ep60.mp3)	
 [字幕](./pie-srt/ep60.mp3.srt) 
 [markdown](./pie-markdown/ep60.mp3.md) 
