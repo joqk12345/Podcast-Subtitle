@@ -1,3 +1,8 @@
+[第62期 智能家居和开会难](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/05/pie-ep62.mp3)	
+[字幕](./pie-srt/ep62.mp3.srt) 
+[markdown](./pie-markdown/ep62.mp3.md) 
+[html](./pie-html/ep62.mp3.html) 
+
 [第61期 操作系统怎么才算“国产”](https://cdn2.wavpub.com/cdn.wavpub.com/media/audio/pie-ep61.mp3)	
 [字幕](./pie-srt/ep61.mp3.srt) 
 [markdown](./pie-markdown/ep61.mp3.md) 
