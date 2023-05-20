@@ -1,28 +1,27 @@
-
 [第62期 智能家居和开会难
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/05/pie-ep62.mp3
 )	
-[字幕](./pie-srt/v2/ep62.mp3.srt) 
+[字幕](./pie-srt/v2/pie-ep62.mp3.srt) 
 
 [第61期 操作系统怎么才算“国产”
 ](https://cdn2.wavpub.com/cdn.wavpub.com/media/audio/pie-ep61.mp3
 )	
-[字幕](./pie-srt/v2/ep61.mp3.srt) 
+[字幕](./pie-srt/v2/pie-ep61.mp3.srt) 
 
 [第60期 互联网广告的那些事
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/04/pie-ep60.mp3
 )	
-[字幕](./pie-srt/v2/ep60.mp3.srt) 
+[字幕](./pie-srt/v2/pie-ep60.mp3.srt) 
 
 [第59期 科普的又一春来了
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/04/pie-ep59.mp3
 )	
-[字幕](./pie-srt/v2/ep59.mp3.srt) 
+[字幕](./pie-srt/v2/pie-ep59.mp3.srt) 
 
 [第58期 人工智能该怎么帮我们
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/04/pie-ep58.mp3
 )	
-[字幕](./pie-srt/v2/ep58.mp3.srt) 
+[字幕](./pie-srt/v2/pie-ep58.mp3.srt) 
 
 [第57期 好学韭菜的防割指南
 ](https://media.wavpub.com/import/DyGWRLBFMgxERXFJ.mp3
@@ -327,7 +326,7 @@
 [番外02 游戏漫谈 – 从老头环说开去
 ](https://cdn2.wavpub.com/cdn.wavpub.com/media/audio/pie-epx02.mp3
 )	
-[字幕](./pie-srt/v2/epx02.mp3.srt) 
+[字幕](./pie-srt/v2/pie-epx02.mp3.srt) 
 
 [第5期 后真相时代生存指南
 ](https://media.wavpub.com/import/BqcVUwzbBZSSCdCS.mp3
@@ -356,4 +355,3 @@
 
 [第1期 俄乌冲突、冬奥会和编程机器人](https://media.wavpub.com/import/TmdkaxUwUtXkwFjs.mp3)	
 [字幕](./pie-srt/v2/TmdkaxUwUtXkwFjs.mp3.srt) 
-
