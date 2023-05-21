@@ -1,3 +1,8 @@
+[第63期 AIGC基准测试和输入法历史
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/05/pie-ep63.mp3
+)	
+[字幕](./pie-srt/v2/pie-ep63.mp3.srt) 
+
 [第62期 智能家居和开会难
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/05/pie-ep62.mp3
 )	
