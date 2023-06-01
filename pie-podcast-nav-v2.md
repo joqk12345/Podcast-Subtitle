@@ -11,12 +11,13 @@
 [第62期 智能家居和开会难
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/05/pie-ep62.mp3
 )	
-[字幕](./pie-srt/v2/pie-ep62.mp3.srt) 
+[字幕](./pie-srt/v2/pie-ep62.mp3.srt)
 
 [第61期 操作系统怎么才算“国产”
 ](https://cdn2.wavpub.com/cdn.wavpub.com/media/audio/pie-ep61.mp3
 )	
-[字幕](./pie-srt/v2/pie-ep61.mp3.srt) 
+[字幕](./pie-srt/v2/pie-ep61.mp3.srt)
+[Preview](./pie-srt/v2_preview/pie-ep61.mp3.txt)  
 
 [第60期 互联网广告的那些事
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/04/pie-ep60.mp3
