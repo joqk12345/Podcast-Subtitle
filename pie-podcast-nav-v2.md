@@ -2,6 +2,7 @@
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/05/pie-ep64.mp3
 )	
 [字幕](./pie-srt/v2/pie-ep64.mp3.srt) 
+[Preview](./pie-srt/v2_preview/pie-ep64.mp3.txt)  
 
 [第63期 AIGC基准测试和输入法历史
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/05/pie-ep63.mp3
