@@ -1,3 +1,8 @@
+[第65期  AIGC的应用场景
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/06/pie-ep65.mp3
+)	
+[字幕](./pie-srt/v2/pie-ep65.mp3.srt) 
+
 [第64期  航天·航空·产品观
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/05/pie-ep64.mp3
 )	
