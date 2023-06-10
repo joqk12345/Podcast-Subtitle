@@ -1,3 +1,8 @@
+[第65期  野生名号鉴定
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/06/pie-ep66.mp3
+)	
+[字幕](./pie-srt/v2/pie-ep66.mp3.srt) 
+
 [第65期  AIGC的应用场景
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/06/pie-ep65.mp3
 )	
