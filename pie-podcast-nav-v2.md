@@ -1,4 +1,4 @@
-[第65期  野生名号鉴定
+[第66期  野生名号鉴定
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/06/pie-ep66.mp3
 )	
 [字幕](./pie-srt/v2/pie-ep66.mp3.srt) 
