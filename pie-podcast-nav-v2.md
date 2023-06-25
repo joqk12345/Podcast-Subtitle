@@ -1,3 +1,8 @@
+[第68期 编程语言与盗版
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/06/pie-ep68.mp3
+)	
+[字幕](./pie-srt/v2/pie-ep68.mp3.srt) 
+
 [第67期 预防掉进数据陷阱
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/06/pie-ep67.mp3
 )	
