@@ -1,3 +1,8 @@
+[第69期 工程思维与社群教育
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/07/pie-ep69.mp3
+)	
+[字幕](./pie-srt/v2/pie-ep69.mp3.srt) 
+
 [第68期 编程语言与盗版
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/06/pie-ep68.mp3
 )	
