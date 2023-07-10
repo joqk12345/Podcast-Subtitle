@@ -1,3 +1,8 @@
+[第70期 重新上路的互联网金融与高等教育
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/07/pie-ep70.mp3
+)	
+[字幕](./pie-srt/v2/pie-ep70.mp3.srt) 
+
 [第69期 工程思维与社群教育
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/07/pie-ep69.mp3
 )	
