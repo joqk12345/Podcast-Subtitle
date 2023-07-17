@@ -1,3 +1,8 @@
+[第71期 读书会与颜宁之问
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/07/pie-ep71.mp3
+)	
+[字幕](./pie-srt/v2/pie-ep71.mp3.srt) 
+
 [第70期 重新上路的互联网金融与高等教育
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/07/pie-ep70.mp3
 )	
