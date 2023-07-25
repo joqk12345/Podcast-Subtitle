@@ -1,3 +1,8 @@
+[第72期 有组织科研和数字化转型
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/07/pie-ep72.mp3
+)	
+[字幕](./pie-srt/v2/pie-ep72.mp3.srt) 
+
 [第71期 读书会与颜宁之问
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/07/pie-ep71.mp3
 )	
