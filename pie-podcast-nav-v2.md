@@ -1,3 +1,7 @@
+[第 76 期 行业毒瘤和毒瘤行业
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/08/pie-ep76.mp3)
+[字幕](./pie-srt/v2/pie-ep76.mp3.srt)
+
 [第 75 期 科技媒体最好有点追求
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/08/pie-ep75.mp3)
 [字幕](./pie-srt/v2/pie-ep75.mp3.srt)
