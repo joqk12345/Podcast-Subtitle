@@ -1,3 +1,7 @@
+[第 77 期 关于真理和正义的战役
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/08/pie-ep77.mp3)
+[字幕](./pie-srt/v2/pie-ep77.mp3.srt)
+
 [第 76 期 行业毒瘤和毒瘤行业
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/08/pie-ep76.mp3)
 [字幕](./pie-srt/v2/pie-ep76.mp3.srt)
