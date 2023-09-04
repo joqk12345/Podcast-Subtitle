@@ -1,5 +1,5 @@
 [第 78 期 华为的“偷袭”
-]("https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/09/pie-ep78.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/09/pie-ep78.mp3)
 [字幕](./pie-srt/v2/pie-ep78.mp3.srt)
 
 [第 77 期 关于真理和正义的战役
