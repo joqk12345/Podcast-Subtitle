@@ -1,3 +1,7 @@
+[第 80 期 数字教育的新探索
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/09/pie-ep80.mp3)
+[字幕](./pie-srt/v2/pie-ep80.mp3.srt)
+
 [第 79 期 教师节聊聊老师们的苦恼
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/09/pie-ep79.mp3)
 [字幕](./pie-srt/v2/pie-ep79.mp3.srt)
