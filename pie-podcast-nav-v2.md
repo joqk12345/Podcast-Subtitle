@@ -1,3 +1,7 @@
+[第81期 程序员的自我修养
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/09/pie-ep81.mp3)
+[字幕](./pie-srt/v2/pie-ep81.mp3.srt)
+
 [第 80 期 数字教育的新探索
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/09/pie-ep80.mp3)
 [字幕](./pie-srt/v2/pie-ep80.mp3.srt)
