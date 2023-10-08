@@ -1,3 +1,11 @@
+[第83期 双节吃瓜会
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/10/pie-ep83.mp3)
+[字幕](./pie-srt/v2/pie-ep83.mp3.srt)
+
+[第82期 你穿越了吗
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/09/pie-ep82.mp3)
+[字幕](./pie-srt/v2/pie-ep82.mp3.srt)
+
 [第81期 程序员的自我修养
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/09/pie-ep81.mp3)
 [字幕](./pie-srt/v2/pie-ep81.mp3.srt)
