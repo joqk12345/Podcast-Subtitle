@@ -1,3 +1,8 @@
+[第84期 愿世界和平
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/10/pie-ep84.mp3)
+[字幕](./pie-srt/v2/pie-ep84.mp3.srt)
+
+
 [第83期 双节吃瓜会
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/10/pie-ep83.mp3)
 [字幕](./pie-srt/v2/pie-ep83.mp3.srt)
