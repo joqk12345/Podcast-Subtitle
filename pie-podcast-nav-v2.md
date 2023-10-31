@@ -1,3 +1,7 @@
+[第86期 庄与王的年末大会乱弹
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/10/pie-ep86.mp3)
+[字幕](./pie-srt/v2/pie-ep86.mp3.srt)
+
 [第85期 更多选择更多快乐
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/10/pie-ep85.mp3)
 [字幕](./pie-srt/v2/pie-ep85.mp3.srt)
