@@ -1,3 +1,8 @@
+[第87期 集中吐槽热门文章
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/11/pie-ep87.mp3)
+[字幕](./pie-srt/v2/pie-ep87.mp3.srt)
+
+
 [第86期 庄与王的年末大会乱弹
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/10/pie-ep86.mp3)
 [字幕](./pie-srt/v2/pie-ep86.mp3.srt)
