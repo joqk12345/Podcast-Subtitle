@@ -1,3 +1,7 @@
+[第88期 技术人活该发不了财
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/11/pie-ep88.mp3)
+[字幕](./pie-srt/v2/pie-ep88.mp3.srt)
+
 [第87期 集中吐槽热门文章
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/11/pie-ep87.mp3)
 [字幕](./pie-srt/v2/pie-ep87.mp3.srt)
