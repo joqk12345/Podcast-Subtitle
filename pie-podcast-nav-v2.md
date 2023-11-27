@@ -1,3 +1,7 @@
+[第90期 忍不住要阴谋论啦
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/11/pie-ep90.mp3)
+[字幕](./pie-srt/v2/pie-ep90.mp3.srt)
+
 [第89期 基础在民间，未来在青年
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/11/pie-ep89.mp3)
 [字幕](./pie-srt/v2/pie-ep89.mp3.srt)
