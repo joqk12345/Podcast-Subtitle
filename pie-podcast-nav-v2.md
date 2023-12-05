@@ -1,3 +1,7 @@
+[第91期 AI能解决自己的法律问题吗
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/12/pie-ep91.mp3)
+[字幕](./pie-srt/v2/pie-ep91.mp3.srt)
+
 [第90期 忍不住要阴谋论啦
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/11/pie-ep90.mp3)
 [字幕](./pie-srt/v2/pie-ep90.mp3.srt)
