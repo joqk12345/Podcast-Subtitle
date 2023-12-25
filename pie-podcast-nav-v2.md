@@ -1,3 +1,7 @@
+[第94期 文科很有用但是
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/12/pie-ep94.mp3)
+[字幕](./pie-srt/v2/pie-ep94.mp3.srt)
+
 [第93期 平台与网红
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/12/pie-ep93.mp3)
 [字幕](./pie-srt/v2/pie-ep93.mp3.srt)
