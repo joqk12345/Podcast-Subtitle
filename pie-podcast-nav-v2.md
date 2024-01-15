@@ -1,3 +1,7 @@
+[第97期 编程已死 编程万岁
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/01/pie-ep97.mp3)
+[字幕](./pie-srt/v2/pie-ep97.mp3.srt)
+
 [第96期 数据局在行动
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/01/pie-ep96.mp3)
 [字幕](./pie-srt/v2/pie-ep96.mp3.srt)
