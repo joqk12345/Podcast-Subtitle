@@ -1,3 +1,7 @@
+[第98期 新年的开源榜单和大模型
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/01/pie-ep98.mp3)
+[字幕](./pie-srt/v2/pie-ep98.mp3.srt)
+
 [第97期 编程已死 编程万岁
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/01/pie-ep97.mp3)
 [字幕](./pie-srt/v2/pie-ep97.mp3.srt)
