@@ -2,11 +2,11 @@
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/02/pie-ep100.mp3)
 [字幕](./pie-srt/v2/pie-ep100.mp3.srt)
 
-[[第99期 熵增？第一性原理？
+[第99期 熵增？第一性原理？
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/01/pie-ep99.mp3)
 [字幕](./pie-srt/v2/pie-ep99.mp3.srt)
 
-第98期 新年的开源榜单和大模型
+[第98期 新年的开源榜单和大模型
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/01/pie-ep98.mp3)
 [字幕](./pie-srt/v2/pie-ep98.mp3.srt)
 
