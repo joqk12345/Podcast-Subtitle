@@ -1,4 +1,4 @@
-[[第100期 新起点
+[第100期 新起点
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/02/pie-ep100.mp3)
 [字幕](./pie-srt/v2/pie-ep100.mp3.srt)
 
