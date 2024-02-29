@@ -1,3 +1,11 @@
+[特别篇 周年会2 
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/02/pie-2nd-anniv.mp3)
+[字幕](./pie-srt/v2/pie-2nd-anniv.mp3.srt)
+
+[第101期 Sora和春晚
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/02/pie-ep101.mp3)
+[字幕](./pie-srt/v2/pie-ep101.mp3.srt)
+
 [第100期 新起点
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/02/pie-ep100.mp3)
 [字幕](./pie-srt/v2/pie-ep100.mp3.srt)
