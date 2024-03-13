@@ -1,3 +1,7 @@
+[第103期 美国制造
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/03/pie-ep103.mp3)
+[字幕](./pie-srt/v2/pie-ep103.mp3.srt)
+
 [第102期 假如媒体人懂数据
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/03/pie-ep102.mp3)
 [字幕](./pie-srt/v2/pie-ep102.mp3.srt)
