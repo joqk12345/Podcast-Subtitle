@@ -1,3 +1,7 @@
+[第105期 美国人的鸦片战争？
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/43/pie-ep105.mp3)
+[字幕](./pie-srt/v2/pie-ep105.mp3.srt)
+
 [第104 字节的历史时刻
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/43/pie-ep104.mp3)
 [字幕](./pie-srt/v2/pie-ep104.mp3.srt)
