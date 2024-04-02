@@ -1,3 +1,7 @@
+[第106期 Rust语言要干掉谁
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep106.mp3)
+[字幕](./pie-srt/v2/pie-ep106.mp3.srt)
+
 [第105期 美国人的鸦片战争？
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/43/pie-ep105.mp3)
 [字幕](./pie-srt/v2/pie-ep105.mp3.srt)
