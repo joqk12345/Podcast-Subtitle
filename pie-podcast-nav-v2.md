@@ -1,3 +1,7 @@
+[第108期 新质生产力要更敢想
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep108.mp3)
+[字幕](./pie-srt/v2/pie-ep108.mp3.srt)
+
 [第107期 重构还是重写
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep107.mp3)
 [字幕](./pie-srt/v2/pie-ep107.mp3.srt)
