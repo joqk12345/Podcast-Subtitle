@@ -1,3 +1,7 @@
+[第109期 大模型军备竞赛真可怕
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep109.mp3)
+[字幕](./pie-srt/v2/pie-ep109.mp3.srt)
+
 [第108期 新质生产力要更敢想
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep108.mp3)
 [字幕](./pie-srt/v2/pie-ep108.mp3.srt)
