@@ -1,3 +1,7 @@
+[第110期 编程与游戏人生
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep110.mp3)
+[字幕](./pie-srt/v2/pie-ep110.mp3.srt)
+
 [番外10 还是都学点法吧
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-epx10.mp3)
 [字幕](./pie-srt/v2/pie-epx10.mp3.srt)
