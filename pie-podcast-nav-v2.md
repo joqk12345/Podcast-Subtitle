@@ -1,3 +1,7 @@
+[第111期 二次元与IP运营 
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep111.mp3)
+[字幕](./pie-srt/v2/pie-ep111.mp3.srt)
+
 [第110期 编程与游戏人生
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep110.mp3)
 [字幕](./pie-srt/v2/pie-ep110.mp3.srt)
