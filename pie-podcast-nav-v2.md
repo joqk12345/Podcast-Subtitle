@@ -1,3 +1,7 @@
+[第113期 论科学的质疑
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep113.mp3)
+[字幕](./pie-srt/v2/pie-ep113.mp3.srt)
+
 [第112期 欧洲大战略与人生定律
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep112.mp3)
 [字幕](./pie-srt/v2/pie-ep112.mp3.srt)
