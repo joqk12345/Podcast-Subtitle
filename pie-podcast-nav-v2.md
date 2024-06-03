@@ -1,17 +1,21 @@
+[第115期 认真做事不辩经
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep115.mp3)
+[字幕](./pie-srt/v2/pie-ep114.mp3.srt)
+
 [第114期 内容产业不等于广告产业
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep114.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/05/pie-ep114.mp3)
 [字幕](./pie-srt/v2/pie-ep114.mp3.srt)
 
 [第113期 论科学的质疑
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep113.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/05/pie-ep113.mp3)
 [字幕](./pie-srt/v2/pie-ep113.mp3.srt)
 
 [第112期 欧洲大战略与人生定律
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep112.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/05/pie-ep112.mp3)
 [字幕](./pie-srt/v2/pie-ep112.mp3.srt)
 
 [第111期 二次元与IP运营 
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep111.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/05/pie-ep111.mp3)
 [字幕](./pie-srt/v2/pie-ep111.mp3.srt)
 
 [第110期 编程与游戏人生
