@@ -1,6 +1,10 @@
+[第116期 胜利与精神胜利
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep116.mp3)
+[字幕](./pie-srt/v2/pie-ep116.mp3.srt)
+
 [第115期 认真做事不辩经
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep115.mp3)
-[字幕](./pie-srt/v2/pie-ep114.mp3.srt)
+[字幕](./pie-srt/v2/pie-ep115.mp3.srt)
 
 [第114期 内容产业不等于广告产业
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/05/pie-ep114.mp3)
