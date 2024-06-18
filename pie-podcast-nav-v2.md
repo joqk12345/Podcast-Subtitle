@@ -1,3 +1,7 @@
+[第117期 果粉、果吹和果黑 
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep117.mp3)
+[字幕](./pie-srt/v2/pie-ep117.mp3.srt)
+
 [第116期 胜利与精神胜利
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep116.mp3)
 [字幕](./pie-srt/v2/pie-ep116.mp3.srt)
