@@ -1,3 +1,7 @@
+[第118期 黑悟空大戏
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep118.mp3)
+[字幕](./pie-srt/v2/pie-ep118.mp3.srt)
+
 [第117期 果粉、果吹和果黑 
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep117.mp3)
 [字幕](./pie-srt/v2/pie-ep117.mp3.srt)
