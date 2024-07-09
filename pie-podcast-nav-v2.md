@@ -1,3 +1,11 @@
+[第120期 在线教育平台的难
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/07/pie-ep120.mp3)
+[字幕](./pie-srt/v2/pie-ep120.mp3.srt)
+
+[第119期  两老儿辩高尔夫
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep119.mp3)
+[字幕](./pie-srt/v2/pie-ep119.mp3.srt)
+
 [第118期 黑悟空大戏
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep118.mp3)
 [字幕](./pie-srt/v2/pie-ep118.mp3.srt)
