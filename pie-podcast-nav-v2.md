@@ -1,3 +1,7 @@
+[第122期 地平线上的懂王朝 
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/07/pie-ep122.mp3)
+[字幕](./pie-srt/v2/pie-ep122.mp3.srt)
+
 [第121期 技术进步与人类进化 
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/07/pie-ep121.mp3)
 [字幕](./pie-srt/v2/pie-ep121.mp3.srt)
