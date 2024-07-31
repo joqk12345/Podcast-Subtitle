@@ -1,3 +1,7 @@
+[第123期 改革的新里程碑 
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/07/pie-ep123.mp3)
+[字幕](./pie-srt/v2/pie-ep123.mp3.srt)
+
 [第122期 地平线上的懂王朝 
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/07/pie-ep122.mp3)
 [字幕](./pie-srt/v2/pie-ep122.mp3.srt)
