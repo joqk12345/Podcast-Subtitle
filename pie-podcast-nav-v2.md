@@ -1,3 +1,11 @@
+[第126期 电子“监工” 
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/08/pie-ep126.mp3)
+[字幕](./pie-srt/v2/pie-ep126.mp3.srt)
+
+[第125期 再见，巴黎奥运
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/08/pie-ep125.mp3)
+[字幕](./pie-srt/v2/pie-ep125.mp3.srt)
+
 [第124期 网证与网号干啥的 
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/08/pie-ep124.mp3)
 [字幕](./pie-srt/v2/pie-ep123.mp3.srt)
