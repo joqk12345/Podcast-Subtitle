@@ -1,3 +1,11 @@
+[第128期 从专家到砖家
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/08/pie-ep128.mp3)
+[字幕](./pie-srt/v2/pie-ep128.mp3.srt)
+
+[第127期 纪录是用来打破的
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/08/pie-ep127.mp3)
+[字幕](./pie-srt/v2/pie-ep127.mp3.srt)
+
 [第126期 电子“监工” 
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/08/pie-ep126.mp3)
 [字幕](./pie-srt/v2/pie-ep126.mp3.srt)
