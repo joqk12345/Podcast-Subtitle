@@ -1,3 +1,15 @@
+[第131期 AI什么值得学
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep131.mp3.mp3)
+[字幕](./pie-srt/v2/pie-ep131.mp3.srt)
+
+[第130期 AI什么值得学
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep130.mp3.mp3)
+[字幕](./pie-srt/v2/pie-ep130.mp3.srt)
+
+[第129期 AI什么值得学
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep129.mp3.mp3)
+[字幕](./pie-srt/v2/pie-ep129.mp3.srt)
+
 [第128期 从专家到砖家
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/08/pie-ep128.mp3)
 [字幕](./pie-srt/v2/pie-ep128.mp3.srt)
