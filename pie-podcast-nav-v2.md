@@ -1,4 +1,4 @@
-[第134期 AI什么值得学
+[第134期 触了电的诺奖
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep134.mp3.mp3)
 [字幕](./pie-srt/v2/pie-ep134.mp3.srt)
 
