@@ -1,8 +1,21 @@
+[第134期 AI什么值得学
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep134.mp3.mp3)
+[字幕](./pie-srt/v2/pie-ep134.mp3.srt)
+
+[第133期 数学有多重要
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep133.mp3.mp3)
+[字幕](./pie-srt/v2/pie-ep133.mp3.srt)
+
+
+[第132期 祖国75岁生日快乐
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep132.mp3.mp3)
+[字幕](./pie-srt/v2/pie-ep132.mp3.srt)
+
 [第131期 AI什么值得学
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep131.mp3.mp3)
 [字幕](./pie-srt/v2/pie-ep131.mp3.srt)
 
-[第130期 AI什么值得学
+[第130期 帝国大选冲刺
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep130.mp3.mp3)
 [字幕](./pie-srt/v2/pie-ep130.mp3.srt)
 
