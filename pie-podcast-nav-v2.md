@@ -1,3 +1,11 @@
+[第136期 美国式开源
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep136.mp3.mp3)
+[字幕](./pie-srt/v2/pie-ep136.mp3.srt)
+
+[第135期 科技大会怎么办
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep135.mp3.mp3)
+[字幕](./pie-srt/v2/pie-ep135.mp3.srt)
+
 [第134期 触了电的诺奖
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep134.mp3.mp3)
 [字幕](./pie-srt/v2/pie-ep134.mp3.srt)
