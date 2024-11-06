@@ -1,3 +1,7 @@
+[第136期 开源又何必只是代码
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/11/pie-ep137.mp3.mp3)
+[字幕](./pie-srt/v2/pie-ep137.mp3.srt)
+
 [第136期 美国式开源
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep136.mp3.mp3)
 [字幕](./pie-srt/v2/pie-ep136.mp3.srt)
