@@ -1,4 +1,12 @@
-[第136期 开源又何必只是代码
+[第139期 新时代珠展
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/11/pie-ep139.mp3.mp3)
+[字幕](./pie-srt/v2/pie-ep139.mp3.srt)
+
+[第138期 懂王2.0
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/11/pie-ep138.mp3.mp3)
+[字幕](./pie-srt/v2/pie-ep138.mp3.srt)
+
+[第137期 开源又何必只是代码
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/11/pie-ep137.mp3.mp3)
 [字幕](./pie-srt/v2/pie-ep137.mp3.srt)
 
