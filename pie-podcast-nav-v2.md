@@ -1,3 +1,23 @@
+[第144期 软件开发革命来了吗
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep144.mp3.mp3)
+[字幕](./pie-srt/v2/pie-ep144.mp3.srt)
+
+[第143期 TGA失格记
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep143.mp3.mp3)
+[字幕](./pie-srt/v2/pie-ep143.mp3.srt)
+
+[第142期 当AI走入人生
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep142.mp3.mp3)
+[字幕](./pie-srt/v2/pie-ep142.mp3.srt)
+
+[第141期 对平台算法问题开刀
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep141.mp3.mp3)
+[字幕](./pie-srt/v2/pie-ep141.mp3.srt)
+
+[第140期 虚假和真实的货币战争
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep140.mp3.mp3)
+[字幕](./pie-srt/v2/pie-ep140.mp3.srt)
+
 [第139期 新时代珠展
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/11/pie-ep139.mp3.mp3)
 [字幕](./pie-srt/v2/pie-ep139.mp3.srt)
