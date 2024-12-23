@@ -1,66 +1,66 @@
 [第144期 软件开发革命来了吗
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep144.mp3.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep144.mp3)
 [字幕](./pie-srt/v2/pie-ep144.mp3.srt)
 
 [第143期 TGA失格记
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep143.mp3.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep143.mp3)
 [字幕](./pie-srt/v2/pie-ep143.mp3.srt)
 
 [第142期 当AI走入人生
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep142.mp3.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep142.mp3)
 [字幕](./pie-srt/v2/pie-ep142.mp3.srt)
 
 [第141期 对平台算法问题开刀
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep141.mp3.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep141.mp3)
 [字幕](./pie-srt/v2/pie-ep141.mp3.srt)
 
 [第140期 虚假和真实的货币战争
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep140.mp3.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep140.mp3)
 [字幕](./pie-srt/v2/pie-ep140.mp3.srt)
 
 [第139期 新时代珠展
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/11/pie-ep139.mp3.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/11/pie-ep139.mp3)
 [字幕](./pie-srt/v2/pie-ep139.mp3.srt)
 
 [第138期 懂王2.0
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/11/pie-ep138.mp3.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/11/pie-ep138.mp3)
 [字幕](./pie-srt/v2/pie-ep138.mp3.srt)
 
 [第137期 开源又何必只是代码
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/11/pie-ep137.mp3.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/11/pie-ep137.mp3)
 [字幕](./pie-srt/v2/pie-ep137.mp3.srt)
 
 [第136期 美国式开源
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep136.mp3.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep136.mp3)
 [字幕](./pie-srt/v2/pie-ep136.mp3.srt)
 
 [第135期 科技大会怎么办
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep135.mp3.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep135.mp3)
 [字幕](./pie-srt/v2/pie-ep135.mp3.srt)
 
 [第134期 触了电的诺奖
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep134.mp3.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep134.mp3)
 [字幕](./pie-srt/v2/pie-ep134.mp3.srt)
 
 [第133期 数学有多重要
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep133.mp3.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep133.mp3)
 [字幕](./pie-srt/v2/pie-ep133.mp3.srt)
 
 
 [第132期 祖国75岁生日快乐
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep132.mp3.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep132.mp3)
 [字幕](./pie-srt/v2/pie-ep132.mp3.srt)
 
 [第131期 AI什么值得学
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep131.mp3.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep131.mp3)
 [字幕](./pie-srt/v2/pie-ep131.mp3.srt)
 
 [第130期 帝国大选冲刺
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep130.mp3.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep130.mp3)
 [字幕](./pie-srt/v2/pie-ep130.mp3.srt)
 
 [第129期 AI什么值得学
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep129.mp3.mp3)
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep129.mp3)
 [字幕](./pie-srt/v2/pie-ep129.mp3.srt)
 
 [第128期 从专家到砖家
