@@ -1,3 +1,19 @@
+[第148期 世界人民大团结万岁
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/01/pie-ep148.mp3)
+[字幕](./pie-srt/v2/pie-ep148.mp3.srt)
+
+[第147期 懂王将登基 本月美瓜产量翻倍
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/01/pie-ep147.mp3)
+[字幕](./pie-srt/v2/pie-ep147.mp3.srt)
+
+[第146期 DOGE vs MAGA
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/01/pie-ep146.mp3)
+[字幕](./pie-srt/v2/pie-ep146.mp3.srt)
+
+[第145期 愿大家都有美好的2025
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep145.mp3)
+[字幕](./pie-srt/v2/pie-ep145.mp3.srt)
+
 [第144期 软件开发革命来了吗
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep144.mp3)
 [字幕](./pie-srt/v2/pie-ep144.mp3.srt)
