@@ -1,3 +1,7 @@
+[第149期 DeepSeek vs Stargate
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/01/pie-ep149.mp3)
+[字幕](./pie-srt/v2/pie-ep149.mp3.srt)
+
 [第148期 世界人民大团结万岁
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/01/pie-ep148.mp3)
 [字幕](./pie-srt/v2/pie-ep148.mp3.srt)
