@@ -1,6 +1,7 @@
 [特别篇 周年会③
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/03/pie-2nd-anniv.mp3)
-[字幕](./pie-srt/v2/pie-2nd-anniv.mp3.srt)
+[字幕](./pie-srt/v2/pie-3nd-anniv.mp3.srt)
+
 
 [第152期 人工智能时代
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/02/pie-ep152.mp3)
