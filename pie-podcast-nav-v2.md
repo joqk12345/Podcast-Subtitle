@@ -1,3 +1,7 @@
+[第153期 全球驻华办
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/03/pie-ep153.mp3)
+[字幕](./pie-srt/v2/pie-ep153.mp3.srt)
+
 [特别篇 周年会③
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/03/pie-2nd-anniv.mp3)
 [字幕](./pie-srt/v2/pie-3nd-anniv.mp3.srt)
