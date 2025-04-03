@@ -1,3 +1,15 @@
+[第156期 AOSP咋回事
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/03/pie-ep156.mp3)
+[字幕](./pie-srt/v2/pie-ep156.mp3.srt)
+
+[第155期 后互联网时代的黑产
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/03/pie-ep155.mp3)
+[字幕](./pie-srt/v2/pie-ep155.mp3.srt)
+
+[第154期 随缘编程
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/03/pie-ep154.mp3)
+[字幕](./pie-srt/v2/pie-ep154.mp3.srt)
+
 [第153期 全球驻华办
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/03/pie-ep153.mp3)
 [字幕](./pie-srt/v2/pie-ep153.mp3.srt)
