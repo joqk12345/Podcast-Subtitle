@@ -1,3 +1,31 @@
+[第163期 考还是不思考
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/05/pie-ep163.mp3)
+[字幕](./pie-srt/v2/pie-ep163.mp3.srt)
+
+[第162期 中国军迷过节
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/05/pie-ep162.mp3)
+[字幕](./pie-srt/v2/pie-ep162.mp3.srt)
+
+[第161期 AI时代的IDE战争
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/05/pie-ep161.mp3)
+[字幕](./pie-srt/v2/pie-ep161.mp3.srt)
+
+[第160期 智能体谁正宗
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/04/pie-ep160.mp3)
+[字幕](./pie-srt/v2/pie-ep160.mp3.srt)
+
+[第159期 还没到中场休息
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/04/pie-ep159.mp3)
+[字幕](./pie-srt/v2/pie-ep159.mp3.srt)
+
+[第158期 美元霸权与世界未来
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/04/pie-ep158.mp3)
+[字幕](./pie-srt/v2/pie-ep158.mp3.srt)
+
+[第157期 万国关税战
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/04/pie-ep157.mp3)
+[字幕](./pie-srt/v2/pie-ep157.mp3.srt)
+
 [第156期 AOSP咋回事
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/03/pie-ep156.mp3)
 [字幕](./pie-srt/v2/pie-ep156.mp3.srt)
