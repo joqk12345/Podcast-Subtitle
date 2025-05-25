@@ -1,3 +1,7 @@
+[第164期 Google回来了
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/05/pie-ep164.mp3)
+[字幕](./pie-srt/v2/pie-ep164.mp3.srt)
+
 [第163期 考还是不思考
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/05/pie-ep163.mp3)
 [字幕](./pie-srt/v2/pie-ep163.mp3.srt)
