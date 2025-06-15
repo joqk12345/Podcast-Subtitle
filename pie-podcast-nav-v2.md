@@ -1,3 +1,11 @@
+[第167期 从高考迈向人生巅峰
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/06/pie-ep167.mp3)
+[字幕](./pie-srt/v2/pie-ep167.mp3.srt)
+
+[第166期 读读AI趋势报告
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/06/pie-ep166.mp3)
+[字幕](./pie-srt/v2/pie-ep166.mp3.srt)
+
 [第165期 赛博国际主义
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/05/pie-ep165.mp3)
 [字幕](./pie-srt/v2/pie-ep165.mp3.srt)
