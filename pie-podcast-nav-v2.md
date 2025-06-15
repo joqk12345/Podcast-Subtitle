@@ -1,3 +1,7 @@
+[第165期 赛博国际主义
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/05/pie-ep165.mp3)
+[字幕](./pie-srt/v2/pie-ep165.mp3.srt)
+
 [第164期 Google回来了
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/05/pie-ep164.mp3)
 [字幕](./pie-srt/v2/pie-ep164.mp3.srt)
