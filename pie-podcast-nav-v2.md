@@ -1,3 +1,11 @@
+[第169期 “著书立说”的终结
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/06/pie-ep169.mp3)
+[字幕](./pie-srt/v2/pie-ep169.mp3.srt)
+
+[第168期 怎么正确读新闻
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/06/pie-ep168.mp3)
+[字幕](./pie-srt/v2/pie-ep168.mp3.srt)
+
 [第167期 从高考迈向人生巅峰
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/06/pie-ep167.mp3)
 [字幕](./pie-srt/v2/pie-ep167.mp3.srt)
