@@ -1,6 +1,6 @@
 # Podcast-Subtitle
 
-为 “后互联网时代的乱弹” 播客 提供字幕内容，喜欢听音频的朋友请移步到[主站](https://hosting.wavpub.cn/pie/page/)，[B站](https://space.bilibili.com/760331/channel/collectiondetail?sid=276050/)。
+为 “后互联网时代的乱弹” 播客 提供字幕内容，喜欢听音频的朋友请移步到[主站](https://hosting.wavpub.cn/pie/)，[B站](https://space.bilibili.com/760331/channel/collectiondetail?sid=276050/)。
 
 
 # 采用的开源项目

@@ -1,3 +1,35 @@
+[第177期 对美认知的变迁
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/08/pie-ep177.mp3)
+[字幕](./pie-srt/v2/pie-ep177.mp3.srt)
+
+[第176期 安克雷奇又一年
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/08/pie-ep176.mp3)
+[字幕](./pie-srt/v2/pie-ep176.mp3.srt)
+
+[第175期 开源理想、现实与陷阱
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/08/pie-ep175.mp3)
+[字幕](./pie-srt/v2/pie-ep175.mp3.srt)
+
+[第174期 敬畏历史方有未来
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/08/pie-ep174.mp3)
+[字幕](./pie-srt/v2/pie-ep174.mp3.srt)
+
+[第173期 未来水世界
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/07/pie-ep173.mp3)
+[字幕](./pie-srt/v2/pie-ep173.mp3.srt)
+
+[第172期 人工智能大国竞争
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/07/pie-ep172.mp3)
+[字幕](./pie-srt/v2/pie-ep172.mp3.srt)
+
+[第171期 华为怎么了
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/07/pie-ep171.mp3)
+[字幕](./pie-srt/v2/pie-ep171.mp3.srt)
+
+[第170期 您智商多少
+](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/07/pie-ep170.mp3)
+[字幕](./pie-srt/v2/pie-ep170.mp3.srt)
+
 [第169期 “著书立说”的终结
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/06/pie-ep169.mp3)
 [字幕](./pie-srt/v2/pie-ep169.mp3.srt)
