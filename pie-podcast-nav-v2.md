@@ -1,3 +1,31 @@
+[第186期 以史为鉴明辨是非](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/10/pie-ep186.mp3)
+[字幕](./pie-srt/v2/pie-ep186.mp3.srt)
+
+[第185期 谁才是正常人](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/10/pie-ep185.mp3)
+[字幕](./pie-srt/v2/pie-ep185.mp3.srt)
+
+[第184期 东大是个好学生](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/10/pie-ep184.mp3)
+[字幕](./pie-srt/v2/pie-ep184.mp3.srt)
+
+[第183期 可控核聚变还有多远](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/10/pie-ep183.mp3)
+[字幕](./pie-srt/v2/pie-ep183.mp3.srt)
+
+[第182期 可控核聚变还有多远](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/09/pie-ep182.mp3)
+[字幕](./pie-srt/v2/pie-ep182.mp3.srt)
+
+[第181期 可控核聚变还有多远](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/09/pie-ep181.mp3)
+[字幕](./pie-srt/v2/pie-ep181.mp3.srt)
+
+
+[第180期 可控核聚变还有多远](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/09/pie-ep180.mp3)
+[字幕](./pie-srt/v2/pie-ep183.mp3.srt)
+
+[第179期 可控核聚变还有多远](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/09/pie-ep179.mp3)
+[字幕](./pie-srt/v2/pie-ep183.mp3.srt)
+
+[第178期 快步迈进AI新纪元](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/08/pie-ep178.mp3)
+[字幕](./pie-srt/v2/pie-ep178.mp3.srt)
+
 [第177期 对美认知的变迁
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/08/pie-ep177.mp3)
 [字幕](./pie-srt/v2/pie-ep177.mp3.srt)
