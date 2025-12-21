@@ -1,3 +1,27 @@
+[第194期 大家都爱举国体制](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/11/pie-ep187.mp3)
+[字幕](./pie-srt/v2/pie-ep194.mp3.srt)
+
+[第193期 帝国新纪元](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/12/pie-ep193.mp3)
+[字幕](./pie-srt/v2/pie-ep193.mp3.srt)
+
+[第192期 轻罪治理难题](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/12/pie-ep192.mp3)
+[字幕](./pie-srt/v2/pie-ep192.mp3.srt)
+
+[第191期 Scaling时代终结](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/11/pie-ep191.mp3)
+[字幕](./pie-srt/v2/pie-ep191.mp3.srt)
+
+[第190期 AI软件工程](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/11/pie-ep190.mp3)
+[字幕](./pie-srt/v2/pie-ep190.mp3.srt)
+
+[第189期 找事儿就会有事](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/11/pie-ep189.mp3)
+[字幕](./pie-srt/v2/pie-ep189.mp3.srt)
+
+[第188期 野史背后](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/11/pie-ep188.mp3)
+[字幕](./pie-srt/v2/pie-ep188.mp3.srt)
+
+[第187期 懂王亚洲行](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/11/pie-ep187.mp3)
+[字幕](./pie-srt/v2/pie-ep187.mp3.srt)
+
 [第186期 以史为鉴明辨是非](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/10/pie-ep186.mp3)
 [字幕](./pie-srt/v2/pie-ep186.mp3.srt)
 
