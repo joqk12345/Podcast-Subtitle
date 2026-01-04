@@ -1,3 +1,6 @@
+[第196期 AI编程学来了](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/01/pie-ep196.mp3)
+[字幕](./pie-srt/v2/pie-ep196.mp3.srt)
+
 [第195期 你好2026](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/12/pie-ep195.mp3)
 [字幕](./pie-srt/v2/pie-ep195.mp3.srt)
 
