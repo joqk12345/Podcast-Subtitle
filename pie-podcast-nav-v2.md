@@ -1,3 +1,6 @@
+[第197期 力量的正道](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/01/pie-ep197.mp3)
+[字幕](./pie-srt/v2/pie-ep197.mp3.srt)
+
 [第196期 AI编程学来了](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/01/pie-ep196.mp3)
 [字幕](./pie-srt/v2/pie-ep196.mp3.srt)
 
