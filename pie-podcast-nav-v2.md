@@ -1,3 +1,6 @@
+[第198期 研发都是冒险历程](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/01/pie-ep198.mp3)
+[字幕](./pie-srt/v2/pie-ep198.mp3.srt)
+
 [第197期 力量的正道](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/01/pie-ep197.mp3)
 [字幕](./pie-srt/v2/pie-ep197.mp3.srt)
 
