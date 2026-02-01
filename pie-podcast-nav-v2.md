@@ -1,3 +1,6 @@
+[第200期](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/02/pie-ep200.mp3)
+[字幕](./pie-srt/v2/pie-ep200.mp3.srt)
+
 [第199期 不一样的达沃斯](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/01/pie-ep199.mp3)
 [字幕](./pie-srt/v2/pie-ep199.mp3.srt)
 
