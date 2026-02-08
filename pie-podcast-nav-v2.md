@@ -1,3 +1,6 @@
+[第201期 AI时代的开源](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/02/pie-ep201.mp3)
+[字幕](./pie-srt/v2/pie-ep201.mp3.srt)
+
 [第200期 进化](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/02/pie-ep200.mp3)
 [字幕](./pie-srt/v2/pie-ep200.mp3.srt)
 
@@ -37,9 +40,6 @@
 [第187期 懂王亚洲行](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/11/pie-ep187.mp3)
 [字幕](./pie-srt/v2/pie-ep187.mp3.srt)
 
-[第187期 懂王亚洲行](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/11/pie-ep187.mp3)
-[字幕](./pie-srt/v2/pie-ep187.mp3.srt)
-
 [第186期 以史为鉴明辨是非](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/10/pie-ep186.mp3)
 [字幕](./pie-srt/v2/pie-ep186.mp3.srt)
 
@@ -60,112 +60,87 @@
 
 
 [第180期 可控核聚变还有多远](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/09/pie-ep180.mp3)
-[字幕](./pie-srt/v2/pie-ep183.mp3.srt)
+[字幕](./pie-srt/v2/pie-ep180.mp3.srt)
 
 [第179期 可控核聚变还有多远](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/09/pie-ep179.mp3)
-[字幕](./pie-srt/v2/pie-ep183.mp3.srt)
+[字幕](./pie-srt/v2/pie-ep179.mp3.srt)
 
 [第178期 快步迈进AI新纪元](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/08/pie-ep178.mp3)
 [字幕](./pie-srt/v2/pie-ep178.mp3.srt)
 
-[第177期 对美认知的变迁
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/08/pie-ep177.mp3)
+[第177期 对美认知的变迁](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/08/pie-ep177.mp3)
 [字幕](./pie-srt/v2/pie-ep177.mp3.srt)
 
-[第176期 安克雷奇又一年
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/08/pie-ep176.mp3)
+[第176期 安克雷奇又一年](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/08/pie-ep176.mp3)
 [字幕](./pie-srt/v2/pie-ep176.mp3.srt)
 
-[第175期 开源理想、现实与陷阱
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/08/pie-ep175.mp3)
+[第175期 开源理想、现实与陷阱](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/08/pie-ep175.mp3)
 [字幕](./pie-srt/v2/pie-ep175.mp3.srt)
 
-[第174期 敬畏历史方有未来
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/08/pie-ep174.mp3)
+[第174期 敬畏历史方有未来](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/08/pie-ep174.mp3)
 [字幕](./pie-srt/v2/pie-ep174.mp3.srt)
 
-[第173期 未来水世界
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/07/pie-ep173.mp3)
+[第173期 未来水世界](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/07/pie-ep173.mp3)
 [字幕](./pie-srt/v2/pie-ep173.mp3.srt)
 
-[第172期 人工智能大国竞争
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/07/pie-ep172.mp3)
+[第172期 人工智能大国竞争](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/07/pie-ep172.mp3)
 [字幕](./pie-srt/v2/pie-ep172.mp3.srt)
 
-[第171期 华为怎么了
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/07/pie-ep171.mp3)
+[第171期 华为怎么了](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/07/pie-ep171.mp3)
 [字幕](./pie-srt/v2/pie-ep171.mp3.srt)
 
-[第170期 您智商多少
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/07/pie-ep170.mp3)
+[第170期 您智商多少](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/07/pie-ep170.mp3)
 [字幕](./pie-srt/v2/pie-ep170.mp3.srt)
 
-[第169期 “著书立说”的终结
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/06/pie-ep169.mp3)
+[第169期 “著书立说”的终结](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/06/pie-ep169.mp3)
 [字幕](./pie-srt/v2/pie-ep169.mp3.srt)
 
-[第168期 怎么正确读新闻
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/06/pie-ep168.mp3)
+[第168期 怎么正确读新闻](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/06/pie-ep168.mp3)
 [字幕](./pie-srt/v2/pie-ep168.mp3.srt)
 
-[第167期 从高考迈向人生巅峰
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/06/pie-ep167.mp3)
+[第167期 从高考迈向人生巅峰](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/06/pie-ep167.mp3)
 [字幕](./pie-srt/v2/pie-ep167.mp3.srt)
 
-[第166期 读读AI趋势报告
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/06/pie-ep166.mp3)
+[第166期 读读AI趋势报告](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/06/pie-ep166.mp3)
 [字幕](./pie-srt/v2/pie-ep166.mp3.srt)
 
-[第165期 赛博国际主义
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/05/pie-ep165.mp3)
+[第165期 赛博国际主义](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/05/pie-ep165.mp3)
 [字幕](./pie-srt/v2/pie-ep165.mp3.srt)
 
-[第164期 Google回来了
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/05/pie-ep164.mp3)
+[第164期 Google回来了](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/05/pie-ep164.mp3)
 [字幕](./pie-srt/v2/pie-ep164.mp3.srt)
 
-[第163期 考还是不思考
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/05/pie-ep163.mp3)
+[第163期 考还是不思考](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/05/pie-ep163.mp3)
 [字幕](./pie-srt/v2/pie-ep163.mp3.srt)
 
-[第162期 中国军迷过节
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/05/pie-ep162.mp3)
+[第162期 中国军迷过节](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/05/pie-ep162.mp3)
 [字幕](./pie-srt/v2/pie-ep162.mp3.srt)
 
-[第161期 AI时代的IDE战争
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/05/pie-ep161.mp3)
+[第161期 AI时代的IDE战争](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/05/pie-ep161.mp3)
 [字幕](./pie-srt/v2/pie-ep161.mp3.srt)
 
-[第160期 智能体谁正宗
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/04/pie-ep160.mp3)
+[第160期 智能体谁正宗](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/04/pie-ep160.mp3)
 [字幕](./pie-srt/v2/pie-ep160.mp3.srt)
 
-[第159期 还没到中场休息
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/04/pie-ep159.mp3)
+[第159期 还没到中场休息](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/04/pie-ep159.mp3)
 [字幕](./pie-srt/v2/pie-ep159.mp3.srt)
 
-[第158期 美元霸权与世界未来
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/04/pie-ep158.mp3)
+[第158期 美元霸权与世界未来](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/04/pie-ep158.mp3)
 [字幕](./pie-srt/v2/pie-ep158.mp3.srt)
 
-[第157期 万国关税战
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/04/pie-ep157.mp3)
+[第157期 万国关税战](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/04/pie-ep157.mp3)
 [字幕](./pie-srt/v2/pie-ep157.mp3.srt)
 
-[第156期 AOSP咋回事
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/03/pie-ep156.mp3)
+[第156期 AOSP咋回事](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/03/pie-ep156.mp3)
 [字幕](./pie-srt/v2/pie-ep156.mp3.srt)
 
-[第155期 后互联网时代的黑产
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/03/pie-ep155.mp3)
+[第155期 后互联网时代的黑产](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/03/pie-ep155.mp3)
 [字幕](./pie-srt/v2/pie-ep155.mp3.srt)
 
-[第154期 随缘编程
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/03/pie-ep154.mp3)
+[第154期 随缘编程](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/03/pie-ep154.mp3)
 [字幕](./pie-srt/v2/pie-ep154.mp3.srt)
 
-[第153期 全球驻华办
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/03/pie-ep153.mp3)
+[第153期 全球驻华办](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/03/pie-ep153.mp3)
 [字幕](./pie-srt/v2/pie-ep153.mp3.srt)
 
 [特别篇 周年会③
@@ -173,303 +148,232 @@
 [字幕](./pie-srt/v2/pie-3nd-anniv.mp3.srt)
 
 
-[第152期 人工智能时代
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/02/pie-ep152.mp3)
+[第152期 人工智能时代](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/02/pie-ep152.mp3)
 [字幕](./pie-srt/v2/pie-ep152.mp3.srt)
 
-[第151期 新时代开源
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/02/pie-ep151.mp3)
+[第151期 新时代开源](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/02/pie-ep151.mp3)
 [字幕](./pie-srt/v2/pie-ep151.mp3.srt)
 
-[第150期 哪吒和DS冲击
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/02/pie-ep150.mp3)
+[第150期 哪吒和DS冲击](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/02/pie-ep150.mp3)
 [字幕](./pie-srt/v2/pie-ep150.mp3.srt)
 
-[第149期 DeepSeek vs Stargate
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/01/pie-ep149.mp3)
+[第149期 DeepSeek vs Stargate](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/01/pie-ep149.mp3)
 [字幕](./pie-srt/v2/pie-ep149.mp3.srt)
 
-[第148期 世界人民大团结万岁
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/01/pie-ep148.mp3)
+[第148期 世界人民大团结万岁](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/01/pie-ep148.mp3)
 [字幕](./pie-srt/v2/pie-ep148.mp3.srt)
 
-[第147期 懂王将登基 本月美瓜产量翻倍
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/01/pie-ep147.mp3)
+[第147期 懂王将登基 本月美瓜产量翻倍](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/01/pie-ep147.mp3)
 [字幕](./pie-srt/v2/pie-ep147.mp3.srt)
 
-[第146期 DOGE vs MAGA
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/01/pie-ep146.mp3)
+[第146期 DOGE vs MAGA](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2025/01/pie-ep146.mp3)
 [字幕](./pie-srt/v2/pie-ep146.mp3.srt)
 
-[第145期 愿大家都有美好的2025
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep145.mp3)
+[第145期 愿大家都有美好的2025](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep145.mp3)
 [字幕](./pie-srt/v2/pie-ep145.mp3.srt)
 
-[第144期 软件开发革命来了吗
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep144.mp3)
+[第144期 软件开发革命来了吗](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep144.mp3)
 [字幕](./pie-srt/v2/pie-ep144.mp3.srt)
 
-[第143期 TGA失格记
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep143.mp3)
+[第143期 TGA失格记](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep143.mp3)
 [字幕](./pie-srt/v2/pie-ep143.mp3.srt)
 
-[第142期 当AI走入人生
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep142.mp3)
+[第142期 当AI走入人生](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep142.mp3)
 [字幕](./pie-srt/v2/pie-ep142.mp3.srt)
 
-[第141期 对平台算法问题开刀
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep141.mp3)
+[第141期 对平台算法问题开刀](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep141.mp3)
 [字幕](./pie-srt/v2/pie-ep141.mp3.srt)
 
-[第140期 虚假和真实的货币战争
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep140.mp3)
+[第140期 虚假和真实的货币战争](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/12/pie-ep140.mp3)
 [字幕](./pie-srt/v2/pie-ep140.mp3.srt)
 
-[第139期 新时代珠展
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/11/pie-ep139.mp3)
+[第139期 新时代珠展](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/11/pie-ep139.mp3)
 [字幕](./pie-srt/v2/pie-ep139.mp3.srt)
 
-[第138期 懂王2.0
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/11/pie-ep138.mp3)
+[第138期 懂王2.0](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/11/pie-ep138.mp3)
 [字幕](./pie-srt/v2/pie-ep138.mp3.srt)
 
-[第137期 开源又何必只是代码
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/11/pie-ep137.mp3)
+[第137期 开源又何必只是代码](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/11/pie-ep137.mp3)
 [字幕](./pie-srt/v2/pie-ep137.mp3.srt)
 
-[第136期 美国式开源
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep136.mp3)
+[第136期 美国式开源](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep136.mp3)
 [字幕](./pie-srt/v2/pie-ep136.mp3.srt)
 
-[第135期 科技大会怎么办
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep135.mp3)
+[第135期 科技大会怎么办](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep135.mp3)
 [字幕](./pie-srt/v2/pie-ep135.mp3.srt)
 
-[第134期 触了电的诺奖
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep134.mp3)
+[第134期 触了电的诺奖](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep134.mp3)
 [字幕](./pie-srt/v2/pie-ep134.mp3.srt)
 
-[第133期 数学有多重要
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep133.mp3)
+[第133期 数学有多重要](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/10/pie-ep133.mp3)
 [字幕](./pie-srt/v2/pie-ep133.mp3.srt)
 
 
-[第132期 祖国75岁生日快乐
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep132.mp3)
+[第132期 祖国75岁生日快乐](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep132.mp3)
 [字幕](./pie-srt/v2/pie-ep132.mp3.srt)
 
-[第131期 AI什么值得学
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep131.mp3)
+[第131期 AI什么值得学](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep131.mp3)
 [字幕](./pie-srt/v2/pie-ep131.mp3.srt)
 
-[第130期 帝国大选冲刺
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep130.mp3)
+[第130期 帝国大选冲刺](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep130.mp3)
 [字幕](./pie-srt/v2/pie-ep130.mp3.srt)
 
-[第129期 AI什么值得学
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep129.mp3)
+[第129期 AI什么值得学](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/09/pie-ep129.mp3)
 [字幕](./pie-srt/v2/pie-ep129.mp3.srt)
 
-[第128期 从专家到砖家
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/08/pie-ep128.mp3)
+[第128期 从专家到砖家](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/08/pie-ep128.mp3)
 [字幕](./pie-srt/v2/pie-ep128.mp3.srt)
 
-[第127期 纪录是用来打破的
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/08/pie-ep127.mp3)
+[第127期 纪录是用来打破的](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/08/pie-ep127.mp3)
 [字幕](./pie-srt/v2/pie-ep127.mp3.srt)
 
-[第126期 电子“监工” 
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/08/pie-ep126.mp3)
+[第126期 电子“监工”](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/08/pie-ep126.mp3)
 [字幕](./pie-srt/v2/pie-ep126.mp3.srt)
 
-[第125期 再见，巴黎奥运
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/08/pie-ep125.mp3)
+[第125期 再见，巴黎奥运](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/08/pie-ep125.mp3)
 [字幕](./pie-srt/v2/pie-ep125.mp3.srt)
 
-[第124期 网证与网号干啥的 
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/08/pie-ep124.mp3)
+[第124期 网证与网号干啥的](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/08/pie-ep124.mp3)
+[字幕](./pie-srt/v2/pie-ep124.mp3.srt)
+
+[第123期 改革的新里程碑](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/07/pie-ep123.mp3)
 [字幕](./pie-srt/v2/pie-ep123.mp3.srt)
 
-[第123期 改革的新里程碑 
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/07/pie-ep123.mp3)
-[字幕](./pie-srt/v2/pie-ep123.mp3.srt)
-
-[第122期 地平线上的懂王朝 
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/07/pie-ep122.mp3)
+[第122期 地平线上的懂王朝](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/07/pie-ep122.mp3)
 [字幕](./pie-srt/v2/pie-ep122.mp3.srt)
 
-[第121期 技术进步与人类进化 
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/07/pie-ep121.mp3)
+[第121期 技术进步与人类进化](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/07/pie-ep121.mp3)
 [字幕](./pie-srt/v2/pie-ep121.mp3.srt)
 
-[第120期 在线教育平台的难
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/07/pie-ep120.mp3)
+[第120期 在线教育平台的难](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/07/pie-ep120.mp3)
 [字幕](./pie-srt/v2/pie-ep120.mp3.srt)
 
-[第119期  两老儿辩高尔夫
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep119.mp3)
+[第119期  两老儿辩高尔夫](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep119.mp3)
 [字幕](./pie-srt/v2/pie-ep119.mp3.srt)
 
-[第118期 黑悟空大戏
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep118.mp3)
+[第118期 黑悟空大戏](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep118.mp3)
 [字幕](./pie-srt/v2/pie-ep118.mp3.srt)
 
-[第117期 果粉、果吹和果黑 
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep117.mp3)
+[第117期 果粉、果吹和果黑](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep117.mp3)
 [字幕](./pie-srt/v2/pie-ep117.mp3.srt)
 
-[第116期 胜利与精神胜利
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep116.mp3)
+[第116期 胜利与精神胜利](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep116.mp3)
 [字幕](./pie-srt/v2/pie-ep116.mp3.srt)
 
-[第115期 认真做事不辩经
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep115.mp3)
+[第115期 认真做事不辩经](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/06/pie-ep115.mp3)
 [字幕](./pie-srt/v2/pie-ep115.mp3.srt)
 
-[第114期 内容产业不等于广告产业
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/05/pie-ep114.mp3)
+[第114期 内容产业不等于广告产业](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/05/pie-ep114.mp3)
 [字幕](./pie-srt/v2/pie-ep114.mp3.srt)
 
-[第113期 论科学的质疑
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/05/pie-ep113.mp3)
+[第113期 论科学的质疑](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/05/pie-ep113.mp3)
 [字幕](./pie-srt/v2/pie-ep113.mp3.srt)
 
-[第112期 欧洲大战略与人生定律
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/05/pie-ep112.mp3)
+[第112期 欧洲大战略与人生定律](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/05/pie-ep112.mp3)
 [字幕](./pie-srt/v2/pie-ep112.mp3.srt)
 
-[第111期 二次元与IP运营 
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/05/pie-ep111.mp3)
+[第111期 二次元与IP运营](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/05/pie-ep111.mp3)
 [字幕](./pie-srt/v2/pie-ep111.mp3.srt)
 
-[第110期 编程与游戏人生
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep110.mp3)
+[第110期 编程与游戏人生](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep110.mp3)
 [字幕](./pie-srt/v2/pie-ep110.mp3.srt)
 
 [番外10 还是都学点法吧
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-epx10.mp3)
 [字幕](./pie-srt/v2/pie-epx10.mp3.srt)
 
-[第109期 大模型军备竞赛真可怕
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep109.mp3)
+[第109期 大模型军备竞赛真可怕](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep109.mp3)
 [字幕](./pie-srt/v2/pie-ep109.mp3.srt)
 
-[第108期 新质生产力要更敢想
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep108.mp3)
+[第108期 新质生产力要更敢想](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep108.mp3)
 [字幕](./pie-srt/v2/pie-ep108.mp3.srt)
 
-[第107期 重构还是重写
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep107.mp3)
+[第107期 重构还是重写](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep107.mp3)
 [字幕](./pie-srt/v2/pie-ep107.mp3.srt)
 
-[第106期 Rust语言要干掉谁
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep106.mp3)
+[第106期 Rust语言要干掉谁](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/04/pie-ep106.mp3)
 [字幕](./pie-srt/v2/pie-ep106.mp3.srt)
 
-[第105期 美国人的鸦片战争？
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/43/pie-ep105.mp3)
+[第105期 美国人的鸦片战争？](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/43/pie-ep105.mp3)
 [字幕](./pie-srt/v2/pie-ep105.mp3.srt)
 
 [第104 字节的历史时刻
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/43/pie-ep104.mp3)
 [字幕](./pie-srt/v2/pie-ep104.mp3.srt)
 
-[第103期 美国制造
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/03/pie-ep103.mp3)
+[第103期 美国制造](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/03/pie-ep103.mp3)
 [字幕](./pie-srt/v2/pie-ep103.mp3.srt)
 
-[第102期 假如媒体人懂数据
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/03/pie-ep102.mp3)
+[第102期 假如媒体人懂数据](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/03/pie-ep102.mp3)
 [字幕](./pie-srt/v2/pie-ep102.mp3.srt)
 
 [特别篇 周年会2 
 ](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/02/pie-2nd-anniv.mp3)
 [字幕](./pie-srt/v2/pie-2nd-anniv.mp3.srt)
 
-[第101期 Sora和春晚
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/02/pie-ep101.mp3)
+[第101期 Sora和春晚](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/02/pie-ep101.mp3)
 [字幕](./pie-srt/v2/pie-ep101.mp3.srt)
 
-[第100期 新起点
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/02/pie-ep100.mp3)
+[第100期 新起点](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/02/pie-ep100.mp3)
 [字幕](./pie-srt/v2/pie-ep100.mp3.srt)
 
-[第99期 熵增？第一性原理？
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/01/pie-ep99.mp3)
+[第99期 熵增？第一性原理？](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/01/pie-ep99.mp3)
 [字幕](./pie-srt/v2/pie-ep99.mp3.srt)
 
-[第98期 新年的开源榜单和大模型
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/01/pie-ep98.mp3)
+[第98期 新年的开源榜单和大模型](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/01/pie-ep98.mp3)
 [字幕](./pie-srt/v2/pie-ep98.mp3.srt)
 
-[第97期 编程已死 编程万岁
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/01/pie-ep97.mp3)
+[第97期 编程已死 编程万岁](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/01/pie-ep97.mp3)
 [字幕](./pie-srt/v2/pie-ep97.mp3.srt)
 
-[第96期 数据局在行动
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/01/pie-ep96.mp3)
+[第96期 数据局在行动](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2024/01/pie-ep96.mp3)
 [字幕](./pie-srt/v2/pie-ep96.mp3.srt)
 
-[第95期 你好2024
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/12/pie-ep95.mp3)
+[第95期 你好2024](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/12/pie-ep95.mp3)
 [字幕](./pie-srt/v2/pie-ep95.mp3.srt)
 
-[第94期 文科很有用但是
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/12/pie-ep94.mp3)
+[第94期 文科很有用但是](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/12/pie-ep94.mp3)
 [字幕](./pie-srt/v2/pie-ep94.mp3.srt)
 
-[第93期 平台与网红
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/12/pie-ep93.mp3)
+[第93期 平台与网红](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/12/pie-ep93.mp3)
 [字幕](./pie-srt/v2/pie-ep93.mp3.srt)
 
-[第92期 啥是有技术含量的假唱
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/12/pie-ep92.mp3)
+[第92期 啥是有技术含量的假唱](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/12/pie-ep92.mp3)
 [字幕](./pie-srt/v2/pie-ep92.mp3.srt)
 
-[第91期 AI能解决自己的法律问题吗
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/12/pie-ep91.mp3)
+[第91期 AI能解决自己的法律问题吗](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/12/pie-ep91.mp3)
 [字幕](./pie-srt/v2/pie-ep91.mp3.srt)
 
-[第90期 忍不住要阴谋论啦
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/11/pie-ep90.mp3)
+[第90期 忍不住要阴谋论啦](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/11/pie-ep90.mp3)
 [字幕](./pie-srt/v2/pie-ep90.mp3.srt)
 
-[第89期 基础在民间，未来在青年
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/11/pie-ep89.mp3)
+[第89期 基础在民间，未来在青年](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/11/pie-ep89.mp3)
 [字幕](./pie-srt/v2/pie-ep89.mp3.srt)
 
-[第88期 技术人活该发不了财
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/11/pie-ep88.mp3)
+[第88期 技术人活该发不了财](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/11/pie-ep88.mp3)
 [字幕](./pie-srt/v2/pie-ep88.mp3.srt)
 
-[第87期 集中吐槽热门文章
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/11/pie-ep87.mp3)
+[第87期 集中吐槽热门文章](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/11/pie-ep87.mp3)
 [字幕](./pie-srt/v2/pie-ep87.mp3.srt)
 
 
-[第86期 庄与王的年末大会乱弹
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/10/pie-ep86.mp3)
+[第86期 庄与王的年末大会乱弹](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/10/pie-ep86.mp3)
 [字幕](./pie-srt/v2/pie-ep86.mp3.srt)
 
-[第85期 更多选择更多快乐
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/10/pie-ep85.mp3)
+[第85期 更多选择更多快乐](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/10/pie-ep85.mp3)
 [字幕](./pie-srt/v2/pie-ep85.mp3.srt)
 
-[第84期 愿世界和平
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/10/pie-ep84.mp3)
+[第84期 愿世界和平](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/10/pie-ep84.mp3)
 [字幕](./pie-srt/v2/pie-ep84.mp3.srt)
 
 
-[第83期 双节吃瓜会
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/10/pie-ep83.mp3)
+[第83期 双节吃瓜会](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/10/pie-ep83.mp3)
 [字幕](./pie-srt/v2/pie-ep83.mp3.srt)
 
-[第82期 你穿越了吗
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/09/pie-ep82.mp3)
+[第82期 你穿越了吗](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/09/pie-ep82.mp3)
 [字幕](./pie-srt/v2/pie-ep82.mp3.srt)
 
-[第81期 程序员的自我修养
-](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/09/pie-ep81.mp3)
+[第81期 程序员的自我修养](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2023/09/pie-ep81.mp3)
 [字幕](./pie-srt/v2/pie-ep81.mp3.srt)
 
 [第 80 期 数字教育的新探索

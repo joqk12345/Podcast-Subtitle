@@ -11,6 +11,7 @@
 # 目录
 1. [后互联网时代的乱弹-导航（v2）](./pie-podcast-nav-v2.md)
 2. [每个音频明细](./pie-srt/duration.csv)
+3. [导航更新工具说明](./scripts/update_nav_v2_usage.md)
 
 # 更新
 1. 支持了字幕(SRT/Subtitle)；
