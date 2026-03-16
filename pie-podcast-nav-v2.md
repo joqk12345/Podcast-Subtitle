@@ -1,8 +1,8 @@
-[第204期 _千问与玄学](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/03/pie-ep204.mp3)
-[字幕](./pie-srt/v2/pie-ep204.mp3.srt)
-
 [特别篇 ④周年庆](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/03/pie-4th-anniversary.mp3)
 [字幕](./pie-srt/v2/pie-4th-anniversary.mp3.srt)
+
+[第204期 _千问与玄学](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/03/pie-ep204.mp3)
+[字幕](./pie-srt/v2/pie-ep204.mp3.srt)
 
 [第203期 _天下一家](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/02/pie-ep203.mp3)
 [字幕](./pie-srt/v2/pie-ep203.mp3.srt)

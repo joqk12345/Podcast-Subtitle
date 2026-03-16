@@ -373,25 +373,45 @@ def find_title_and_rename(entry: UrlEntry, dry_run: bool = False) -> Tuple[Optio
     return None, False
 
 
+def should_insert_before(existing: NavEntry, new_entry: UrlEntry) -> bool:
+    existing_date = parse_date_key(existing.url)
+    new_date = new_entry.date_key
+
+    if new_date is not None and existing_date is not None:
+        if existing_date < new_date:
+            return True
+        if existing_date > new_date:
+            return False
+    elif new_date is not None and existing_date is None:
+        return True
+    elif new_date is None and existing_date is not None:
+        return False
+
+    if new_entry.episode is None and existing.episode is not None:
+        return True
+    if new_entry.episode is not None and existing.episode is None:
+        return False
+
+    if new_entry.episode is not None and existing.episode is not None:
+        return existing.episode < new_entry.episode
+
+    existing_identity = entry_identity(existing) or ""
+    return existing_identity > new_entry.media_name
+
+
 def find_insert_index(lines: List[str], new_entry: UrlEntry) -> int:
     entries = parse_entries(lines)
-
-    if new_entry.episode is not None:
-        for entry in entries:
-            if entry.episode is not None and entry.episode < new_entry.episode:
-                return entry.start
-        return len(lines)
-
-    if new_entry.date_key is not None:
-        for entry in entries:
-            existing_date = parse_date_key(entry.url)
-            if existing_date is None:
-                continue
-            if existing_date < new_entry.date_key:
-                return entry.start
-        return len(lines)
-
+    for entry in entries:
+        if should_insert_before(entry, new_entry):
+            return entry.start
     return len(lines)
+
+
+def remove_entry_block(lines: List[str], entry: NavEntry) -> List[str]:
+    stop = entry.end + 1
+    if stop < len(lines) and lines[stop] == "":
+        stop += 1
+    return lines[: entry.start] + lines[stop:]
 
 
 def find_multiline_title_issues(lines: List[str]) -> List[Tuple[int, str]]:
@@ -576,20 +596,21 @@ def run_update(dry_run: bool = False) -> int:
         entries = parse_entries(lines)
         by_media = {entry_identity(item): item for item in entries if entry_identity(item)}
         existing = by_media.get(url_entry.media_name)
+        if existing is not None:
+            lines = remove_entry_block(lines, existing)
 
         if existing is not None:
             existing_title = label_title(existing.label, existing.episode)
             if not title:
                 title = existing_title or None
-            entry_lines = format_entry(url_entry, title)
-            lines[existing.start : existing.end + 1] = entry_lines[:2]
-            updated.append(url_entry.media_name)
-            continue
-
         entry_lines = format_entry(url_entry, title)
         insert_at = find_insert_index(lines, url_entry)
         lines[insert_at:insert_at] = entry_lines
-        added.append(url_entry.media_name)
+
+        if existing is not None:
+            updated.append(url_entry.media_name)
+        else:
+            added.append(url_entry.media_name)
 
     if not dry_run:
         with open(NAV_PATH, "w", encoding="utf-8") as handle:
