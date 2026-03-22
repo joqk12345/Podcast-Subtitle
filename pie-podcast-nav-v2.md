@@ -1,6 +1,9 @@
 [特别篇 ④周年庆](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/03/pie-4th-anniversary.mp3)
 [字幕](./pie-srt/v2/pie-4th-anniversary.mp3.srt)
 
+[第205期 招学生还是AI](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/03/pie-ep205.mp3)
+[字幕](./pie-srt/v2/pie-ep205.mp3.srt)
+
 [第204期 _千问与玄学](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/03/pie-ep204.mp3)
 [字幕](./pie-srt/v2/pie-ep204.mp3.srt)
 
