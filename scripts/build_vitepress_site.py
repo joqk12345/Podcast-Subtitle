@@ -129,14 +129,21 @@ lastUpdated: false
   </section>
 
   <section class="vp-transcript-wordcloud-panel">
-    <div class="vp-transcript-wordcloud-copy">
-      <p class="vp-transcript-eyebrow">Word Cloud</p>
-      <h2>主题词云</h2>
-      <p class="vp-transcript-note">基于全文高频词生成，帮助快速扫一眼这期节目的关键词分布。</p>
-    </div>
-    <SiteLink class="vp-transcript-wordcloud-link" href="{wordcloud_url}" target="_blank" rel="noreferrer">
-      <SiteImage class="vp-transcript-wordcloud" src="{wordcloud_url}" alt="{title} 词云图" loading="lazy" />
-    </SiteLink>
+    <details class="vp-transcript-wordcloud-details" data-wordcloud-details open>
+      <summary class="vp-transcript-wordcloud-summary">
+        <div class="vp-transcript-wordcloud-copy">
+          <p class="vp-transcript-eyebrow">Word Cloud</p>
+          <h2>概念词云</h2>
+          <p class="vp-transcript-note">默认展开，需要时可以折叠起来节省页面空间。</p>
+        </div>
+        <span class="vp-transcript-wordcloud-toggle" data-wordcloud-toggle>收起</span>
+      </summary>
+      <div class="vp-transcript-wordcloud-content">
+        <SiteLink class="vp-transcript-wordcloud-link" href="{wordcloud_url}" target="_blank" rel="noreferrer">
+          <SiteImage class="vp-transcript-wordcloud" src="{wordcloud_url}" alt="{title} 概念词云" loading="lazy"></SiteImage>
+        </SiteLink>
+      </div>
+    </details>
   </section>
 
   <div class="vp-transcript-layout">
@@ -196,7 +203,7 @@ def write_docs(episodes: list[core.Episode]) -> None:
             encoding="utf-8-sig",
         )
         (PUBLIC_WORDCLOUD_ROOT / f"{episode.slug}.svg").write_text(
-            core.build_wordcloud_svg(episode),
+            core.build_wordcloud_svg(episode, kind="concept", background="#f7fbfb"),
             encoding="utf-8",
         )
 

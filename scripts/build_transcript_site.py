@@ -8,6 +8,7 @@ import random
 import re
 import shutil
 import unicodedata
+from collections import Counter
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
@@ -44,6 +45,7 @@ class Episode:
     cues: list[Cue]
     blocks: list[Block]
     duration_seconds: float
+    word_candidates: list[WordCandidate] | None = None
 
 
 @dataclass
@@ -56,6 +58,15 @@ class WordPlacement:
     width: float
     height: float
     color: str
+
+
+@dataclass
+class WordCandidate:
+    token: str
+    count: int
+    block_hits: int
+    title_hits: int
+    score: float
 
 
 WORDCLOUD_STOP_WORDS = {
@@ -169,8 +180,206 @@ WORDCLOUD_STOP_WORDS = {
     "into",
     "that",
     "this",
+    "token",
+    "agent",
     "with",
 }
+
+WORDCLOUD_LOW_SIGNAL_WORDS = {
+    "东西",
+    "些东西",
+    "这个东西",
+    "事情",
+    "件事",
+    "件事情",
+    "这个事情",
+    "比如说",
+    "如说",
+    "比较",
+    "实际",
+    "意思",
+    "知道",
+    "今天",
+    "时间",
+    "有些",
+    "一些",
+    "方面",
+    "地方",
+    "最后",
+    "包括",
+    "完全",
+    "到了",
+    "为什么",
+    "不能",
+    "不会",
+    "必须",
+    "主要",
+    "当时",
+    "后面",
+    "里面",
+    "外面",
+    "国内",
+    "专门",
+    "推荐",
+    "理解",
+    "有点",
+    "人工",
+    "为什",
+    "会有",
+    "有很",
+    "有意",
+    "有一些",
+    "叫做",
+    "特别",
+    "能够",
+    "重要",
+    "提到",
+    "第二",
+    "简单",
+    "真正",
+    "需要",
+    "结果",
+    "基本",
+    "程度",
+    "当中",
+    "有人",
+    "些东",
+    "些事",
+    "些事情",
+    "者说",
+    "或者说",
+    "有意思",
+    "不知道",
+    "不知",
+    "怎么样",
+    "大概",
+    "到底",
+    "不到",
+    "认为",
+    "甚至",
+    "虽然",
+    "普通",
+    "各种",
+    "确实",
+    "喜欢",
+    "很有",
+    "很快",
+    "很大",
+    "不了",
+    "本书",
+    "片子",
+    "话题",
+    "过程",
+}
+
+WORDCLOUD_GENERIC_PENALTIES = {
+    "价格": 1.5,
+    "关系": 2.0,
+    "价值": 1.6,
+    "风险": 1.6,
+    "方面": 2.8,
+    "地方": 2.8,
+    "系统": 1.5,
+    "产品": 1.4,
+    "能力": 1.5,
+    "工具": 1.2,
+    "开发": 1.2,
+    "时代": 1.0,
+    "国家": 2.0,
+}
+
+WORDCLOUD_LATIN_ALIASES = {
+    "agi": "AGI",
+    "ai": "AI",
+    "api": "API",
+    "aws": "AWS",
+    "chatgpt": "ChatGPT",
+    "claude": "Claude",
+    "cpu": "CPU",
+    "cuda": "CUDA",
+    "cursor": "Cursor",
+    "deepseek": "DeepSeek",
+    "gpt": "GPT",
+    "gpu": "GPU",
+    "grok": "Grok",
+    "google": "Google",
+    "ide": "IDE",
+    "ios": "iOS",
+    "llm": "LLM",
+    "meta": "Meta",
+    "openai": "OpenAI",
+    "qwen": "Qwen",
+    "sdk": "SDK",
+    "sora": "Sora",
+}
+
+WORDCLOUD_TECH_CONCEPT_TERMS = {
+    "AGI",
+    "AI",
+    "API",
+    "CPU",
+    "CUDA",
+    "GPU",
+    "GPT",
+    "IDE",
+    "LLM",
+    "SDK",
+}
+
+WORDCLOUD_ENTITY_TERMS = {
+    "DeepSeek",
+    "OpenAI",
+    "ChatGPT",
+    "Claude",
+    "Cursor",
+    "Qwen",
+    "Google",
+    "Meta",
+    "AWS",
+    "Sora",
+    "中国",
+    "美国",
+    "日本",
+    "伊朗",
+    "以色列",
+    "中东",
+    "欧洲",
+    "俄罗斯",
+    "乌克兰",
+    "华为",
+    "苹果",
+    "谷歌",
+    "微软",
+    "腾讯",
+    "阿里",
+    "百度",
+    "字节",
+    "英伟达",
+    "特斯拉",
+    "川普",
+    "特朗普",
+    "拜登",
+    "马斯克",
+    "奥特曼",
+    "黄仁勋",
+    "懂王",
+    "千问",
+}
+
+WORDCLOUD_ENTITY_SUFFIXES = (
+    "公司",
+    "大学",
+    "学院",
+    "银行",
+    "集团",
+    "政府",
+    "法院",
+    "议会",
+    "联盟",
+    "平台",
+    "品牌",
+    "团队",
+)
 
 WORDCLOUD_PALETTE = [
     "#c86432",
@@ -216,6 +425,10 @@ WORDCLOUD_GENERIC_SUFFIXES = (
 WORDCLOUD_EDGE_STOP_CHARS = set(
     "的一是在就都和也把被又还而与着啊呀吧吗呢嘛么我你他她它们这那个得让给从向对上下里外去来以于所并及"
 )
+
+WORDCLOUD_ENTITY_ALLOWLIST = {
+    "以色列",
+}
 
 
 def parse_args() -> argparse.Namespace:
@@ -462,7 +675,11 @@ def is_wordcloud_token_allowed(token: str) -> bool:
     token = token.strip().lower()
     if not token:
         return False
+    if token in WORDCLOUD_ENTITY_ALLOWLIST:
+        return True
     if token in WORDCLOUD_STOP_WORDS:
+        return False
+    if token in WORDCLOUD_LOW_SIGNAL_WORDS:
         return False
     if token.isdigit():
         return False
@@ -484,25 +701,192 @@ def is_wordcloud_token_allowed(token: str) -> bool:
     return True
 
 
-def build_word_frequencies(episode: Episode) -> list[tuple[str, int]]:
-    counts: dict[str, int] = {}
-    for token in split_wordcloud_tokens(episode.title):
-        if is_wordcloud_token_allowed(token):
-            counts[token] = counts.get(token, 0) + 8
+def normalize_latin_token(token: str) -> str:
+    normalized = token.strip().lower()
+    if not normalized:
+        return ""
+    if normalized in WORDCLOUD_STOP_WORDS:
+        return ""
+    alias = WORDCLOUD_LATIN_ALIASES.get(normalized)
+    if alias:
+        return alias
+    if len(normalized) <= 4:
+        return normalized.upper()
+    return normalized.title()
 
-    for token in re.findall(r"[A-Za-z]{2,8}", episode.title):
-        normalized = token.upper() if len(token) <= 4 else token.title()
-        counts[normalized] = counts.get(normalized, 0) + 6
 
-    parts = [block.text for block in episode.blocks]
+def collect_cjk_candidates(text: str, max_len: int = 6) -> Counter[str]:
+    counts: Counter[str] = Counter()
+    for sequence in re.findall(r"[\u4e00-\u9fff]{2,}", normalize_space(text)):
+        upper = min(max_len, len(sequence))
+        for size in range(2, upper + 1):
+            for index in range(len(sequence) - size + 1):
+                token = sequence[index : index + size]
+                if not is_wordcloud_token_allowed(token):
+                    continue
+                counts[token] += 1
+    return counts
 
-    for token in split_wordcloud_tokens(" ".join(parts)):
-        if not is_wordcloud_token_allowed(token):
+
+def collect_latin_candidates(text: str) -> Counter[str]:
+    counts: Counter[str] = Counter()
+    for raw in re.findall(r"[A-Za-z][A-Za-z0-9.+-]{1,15}", normalize_space(text)):
+        token = normalize_latin_token(raw)
+        if not token:
             continue
-        counts[token] = counts.get(token, 0) + 1
+        counts[token] += 1
+    return counts
 
-    ranked = sorted(counts.items(), key=lambda item: (-item[1], item[0]))
-    return [(token, count) for token, count in ranked if count >= 2][:72]
+
+def collect_candidates(text: str) -> Counter[str]:
+    counts = collect_cjk_candidates(text)
+    counts.update(collect_latin_candidates(text))
+    return counts
+
+
+def is_dominated_candidate(
+    candidate: WordCandidate,
+    selected: list[WordCandidate],
+) -> bool:
+    for existing in selected:
+        if len(existing.token) <= len(candidate.token):
+            continue
+        if candidate.token not in existing.token:
+            continue
+        if existing.count < max(2, math.ceil(candidate.count * 0.86)):
+            continue
+        if existing.block_hits < max(1, math.ceil(candidate.block_hits * 0.75)):
+            continue
+        return True
+    return False
+
+
+def has_global_dominator(
+    candidate: WordCandidate,
+    all_candidates: list[WordCandidate],
+) -> bool:
+    for other in all_candidates:
+        if other.token == candidate.token:
+            continue
+        if len(other.token) <= len(candidate.token):
+            continue
+        if candidate.token not in other.token:
+            continue
+        if other.count < max(2, math.ceil(candidate.count * 0.82)):
+            continue
+        if other.block_hits < max(1, math.ceil(candidate.block_hits * 0.7)):
+            continue
+        if other.score + 0.8 < candidate.score:
+            continue
+        return True
+    return False
+
+
+def score_word_candidate(
+    token: str,
+    count: int,
+    block_hits: int,
+    title_hits: int,
+) -> float:
+    if re.fullmatch(r"[\u4e00-\u9fff]+", token):
+        length_bonus = {2: 0.2, 3: 1.3, 4: 1.8, 5: 2.2, 6: 2.5}.get(len(token), 1.0)
+        generic_penalty = WORDCLOUD_GENERIC_PENALTIES.get(token, 0.0)
+    else:
+        length_bonus = 1.6 if len(token) >= 4 else 1.0
+        generic_penalty = 0.0
+
+    return (
+        count * 1.0
+        + block_hits * 2.2
+        + title_hits * 6.5
+        + length_bonus
+        - generic_penalty
+    )
+
+
+def classify_word_candidate(token: str) -> str:
+    if token in WORDCLOUD_TECH_CONCEPT_TERMS:
+        return "concept"
+    if token in WORDCLOUD_ENTITY_TERMS or token in WORDCLOUD_ENTITY_ALLOWLIST:
+        return "entity"
+    if len(token) > 2 and token.endswith(WORDCLOUD_ENTITY_SUFFIXES):
+        return "entity"
+    return "concept"
+
+
+def build_word_candidates(episode: Episode) -> list[WordCandidate]:
+    if episode.word_candidates is not None:
+        return episode.word_candidates
+
+    total_counts: Counter[str] = Counter()
+    block_hits: Counter[str] = Counter()
+    title_counts = collect_candidates(episode.title)
+
+    for token, count in title_counts.items():
+        total_counts[token] += count * 4
+        block_hits[token] += 1
+
+    for block in episode.blocks:
+        block_counts = collect_candidates(block.text)
+        if not block_counts:
+            continue
+        total_counts.update(block_counts)
+        for token in block_counts:
+            block_hits[token] += 1
+
+    candidates: list[WordCandidate] = []
+    for token, count in total_counts.items():
+        title_hits = title_counts.get(token, 0)
+        hits = block_hits.get(token, 0)
+        if count < 2 and title_hits == 0:
+            continue
+        if hits < 2 and count < 4 and title_hits == 0:
+            continue
+        if token in WORDCLOUD_LOW_SIGNAL_WORDS:
+            continue
+        candidates.append(
+            WordCandidate(
+                token=token,
+                count=count,
+                block_hits=hits,
+                title_hits=title_hits,
+                score=score_word_candidate(token, count, hits, title_hits),
+            )
+        )
+
+    candidates = [
+        candidate
+        for candidate in candidates
+        if not has_global_dominator(candidate, candidates)
+    ]
+    candidates.sort(key=lambda item: (-item.score, -len(item.token), -item.block_hits, item.token))
+
+    selected: list[WordCandidate] = []
+    for candidate in candidates:
+        if is_dominated_candidate(candidate, selected):
+            continue
+        selected.append(candidate)
+        if len(selected) >= 72:
+            break
+
+    episode.word_candidates = selected
+    return selected
+
+
+def build_word_frequencies(
+    episode: Episode,
+    kind: str = "all",
+) -> list[tuple[str, int]]:
+    candidates = build_word_candidates(episode)
+    if kind == "entity":
+        filtered = [candidate for candidate in candidates if classify_word_candidate(candidate.token) == "entity"]
+    elif kind == "concept":
+        filtered = [candidate for candidate in candidates if classify_word_candidate(candidate.token) == "concept"]
+    else:
+        filtered = candidates
+
+    filtered.sort(key=lambda item: (-item.count, -item.score, item.token))
+    return [(candidate.token, candidate.count) for candidate in filtered]
 
 
 def estimate_token_width(token: str, font_size: float) -> float:
@@ -535,18 +919,23 @@ def pick_wordcloud_color(index: int, rng: random.Random) -> str:
 
 def build_wordcloud_svg(
     episode: Episode,
+    kind: str = "all",
     width: int = 1200,
     height: int = 720,
     background: str = "#fffaf4",
 ) -> str:
-    frequencies = build_word_frequencies(episode)
+    frequencies = build_word_frequencies(episode, kind=kind)
     if not frequencies:
+        empty_label = {
+            "entity": "暂无足够实体词数据",
+            "concept": "暂无足够概念词数据",
+        }.get(kind, "暂无足够词频数据")
         return (
             f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" '
             f'width="{width}" height="{height}"><rect width="100%" height="100%" fill="{background}" />'
             '<text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" '
             'fill="#6b6259" font-family="IBM Plex Sans, PingFang SC, sans-serif" font-size="28">'
-            "暂无足够词频数据"
+            f"{empty_label}"
             "</text></svg>"
         )
 
@@ -619,10 +1008,19 @@ def build_wordcloud_svg(
         )
         for placement in placements
     )
-    subtitle = html.escape(f"{episode.title} 词云")
+    subtitle = html.escape(
+        {
+            "entity": f"{episode.title} 实体词云",
+            "concept": f"{episode.title} 概念词云",
+        }.get(kind, f"{episode.title} 词云")
+    )
+    description = {
+        "entity": "根据全文转写提取的人物、国家、组织、品牌等实体词生成的词云图",
+        "concept": "根据全文转写提取的技术、议题、概念短语生成的词云图",
+    }.get(kind, "根据全文转写高频词生成的词云图")
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}" role="img" aria-labelledby="title desc">
   <title>{subtitle}</title>
-  <desc>根据全文转写高频词生成的词云图</desc>
+  <desc>{html.escape(description)}</desc>
   <rect width="100%" height="100%" rx="28" fill="{background}" />
   <rect x="14" y="14" width="{width - 28}" height="{height - 28}" rx="22" fill="none" stroke="#eadfce" />
   {text_nodes}

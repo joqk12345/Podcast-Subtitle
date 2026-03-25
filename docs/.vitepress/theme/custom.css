@@ -215,13 +215,28 @@ body {
 }
 
 .vp-transcript-wordcloud-panel {
-  display: grid;
-  grid-template-columns: 240px minmax(0, 1fr);
-  gap: 20px;
-  align-items: center;
   margin-top: 18px;
-  padding: 20px;
+  padding: 0;
   border-radius: 24px;
+  overflow: hidden;
+}
+
+.vp-transcript-wordcloud-details {
+  display: block;
+}
+
+.vp-transcript-wordcloud-summary {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 16px;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.vp-transcript-wordcloud-summary::-webkit-details-marker {
+  display: none;
 }
 
 .vp-transcript-wordcloud-copy h2 {
@@ -233,6 +248,25 @@ body {
 
 .vp-transcript-wordcloud-copy .vp-transcript-note {
   margin: 0;
+}
+
+.vp-transcript-wordcloud-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 72px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(200, 100, 50, 0.12);
+  color: #8f441e;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.vp-transcript-wordcloud-content {
+  display: grid;
+  gap: 16px;
+  padding: 0 20px 20px;
 }
 
 .vp-transcript-wordcloud-link {
@@ -404,6 +438,14 @@ body {
   .vp-transcript-wordcloud-panel,
   .vp-transcript-layout {
     grid-template-columns: 1fr;
+  }
+
+  .vp-transcript-wordcloud-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .vp-transcript-wordcloud-toggle {
+    justify-self: start;
   }
 
   .vp-transcript-sidebar {

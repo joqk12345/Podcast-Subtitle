@@ -170,10 +170,41 @@ function bindTranscriptNavigation() {
   }
 }
 
+function bindWordcloudDetails() {
+  const detailsList = Array.from(document.querySelectorAll('[data-wordcloud-details]'))
+  if (!detailsList.length) return () => {}
+
+  const cleanups = []
+
+  for (const details of detailsList) {
+    const toggle = details.querySelector('[data-wordcloud-toggle]')
+    if (!toggle) continue
+
+    const syncToggle = () => {
+      toggle.textContent = details.open ? '收起' : '展开'
+    }
+
+    syncToggle()
+    details.addEventListener('toggle', syncToggle)
+    cleanups.push(() => details.removeEventListener('toggle', syncToggle))
+  }
+
+  return () => {
+    for (const fn of cleanups) {
+      fn()
+    }
+  }
+}
+
 async function setupPageInteractions() {
   cleanup()
   await nextTick()
-  const cleanups = [bindIndexFilter(), bindTranscriptPlayer(), bindTranscriptNavigation()]
+  const cleanups = [
+    bindIndexFilter(),
+    bindTranscriptPlayer(),
+    bindTranscriptNavigation(),
+    bindWordcloudDetails()
+  ]
   cleanup = () => {
     for (const fn of cleanups) {
       fn()

@@ -12,7 +12,7 @@ titleTemplate: false
     <div class="vp-transcript-stats">
       <div><span>215</span><small>集数</small></div>
       <div><span>30278</span><small>阅读段落</small></div>
-      <div><span>2026-03-23 23:36</span><small>生成时间</small></div>
+      <div><span>2026-03-25 07:51</span><small>生成时间</small></div>
     </div>
     <div class="vp-transcript-search">
       <label for="episode-filter">快速筛选</label>
