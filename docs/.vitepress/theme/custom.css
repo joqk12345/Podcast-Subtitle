@@ -215,6 +215,7 @@ body {
 }
 
 .vp-transcript-wordcloud-panel {
+  display: block;
   margin-top: 18px;
   padding: 0;
   border-radius: 24px;
@@ -223,20 +224,28 @@ body {
 
 .vp-transcript-wordcloud-details {
   display: block;
+  width: 100%;
 }
 
 .vp-transcript-wordcloud-summary {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 16px;
-  align-items: center;
-  padding: 20px;
+  display: block;
+  position: relative;
+  padding: 24px 20px 16px;
   cursor: pointer;
   list-style: none;
 }
 
+.vp-transcript-wordcloud-summary::marker {
+  content: "";
+}
+
 .vp-transcript-wordcloud-summary::-webkit-details-marker {
   display: none;
+}
+
+.vp-transcript-wordcloud-copy {
+  max-width: 720px;
+  padding-right: 104px;
 }
 
 .vp-transcript-wordcloud-copy h2 {
@@ -261,22 +270,29 @@ body {
   color: #8f441e;
   font-size: 14px;
   font-weight: 700;
+  position: absolute;
+  top: 24px;
+  right: 20px;
 }
 
 .vp-transcript-wordcloud-content {
   display: grid;
   gap: 16px;
   padding: 0 20px 20px;
+  width: 100%;
 }
 
 .vp-transcript-wordcloud-link {
   display: block;
+  width: 100%;
 }
 
 .vp-transcript-wordcloud {
   display: block;
   width: 100%;
+  max-width: 1080px;
   height: auto;
+  margin: 0;
   border-radius: 22px;
   border: 1px solid rgba(47, 38, 29, 0.08);
   background: rgba(255, 255, 255, 0.56);
@@ -441,11 +457,16 @@ body {
   }
 
   .vp-transcript-wordcloud-summary {
-    grid-template-columns: 1fr;
+    padding-top: 20px;
   }
 
   .vp-transcript-wordcloud-toggle {
-    justify-self: start;
+    position: static;
+    margin-top: 14px;
+  }
+
+  .vp-transcript-wordcloud-copy {
+    padding-right: 0;
   }
 
   .vp-transcript-sidebar {
