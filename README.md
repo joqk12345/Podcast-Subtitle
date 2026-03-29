@@ -57,6 +57,22 @@ npm run docs:build
 
 这套命令会先运行 `scripts/build_vitepress_site.py`，再把 `docs/` 里的页面交给 VitePress 构建。
 
+如果只是新加了最新一期，不想重刷历史内容，可以直接追加缺失的最新页面：
+
+```bash
+npm run docs:append
+```
+
+这个命令只会处理导航文件最前面、但 `docs/episodes/` 里还没有生成的那几期，同时补上对应的 SRT、词云和首页卡片，不会删除或重建旧页面。
+
+如果仓库里已经有一部分旧页面或资源被删掉了，想做一次全量补缺但不重建已有内容，可以运行：
+
+```bash
+npm run docs:fill-missing
+```
+
+这个命令会扫描导航里的全部期数，只补缺失的单集页、公开 SRT、词云和首页卡片。
+
 ## GitHub Pages 发布
 
 仓库已经可以直接走 GitHub Actions 发布 VitePress 页面。

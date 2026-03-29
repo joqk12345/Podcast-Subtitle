@@ -4,6 +4,8 @@
   "type": "module",
   "scripts": {
     "docs:generate": "python3 scripts/build_vitepress_site.py",
+    "docs:append": "python3 scripts/build_vitepress_site.py --append-new",
+    "docs:fill-missing": "python3 scripts/build_vitepress_site.py --fill-missing",
     "docs:dev": "npm run docs:generate && vitepress dev docs",
     "docs:build": "npm run docs:generate && vitepress build docs",
     "docs:preview": "vitepress preview docs"

@@ -10,9 +10,9 @@ titleTemplate: false
     <h1>后互联网时代的乱弹</h1>
     <p class="vp-transcript-copy">这不是把字幕硬塞进文档站，而是用 VitePress 管理目录、搜索和部署，同时保留播客字幕应有的时间轴阅读体验。</p>
     <div class="vp-transcript-stats">
-      <div><span>215</span><small>集数</small></div>
-      <div><span>30278</span><small>阅读段落</small></div>
-      <div><span>2026-03-25 08:18</span><small>生成时间</small></div>
+      <div><span>216</span><small>集数</small></div>
+      <div><span>30421</span><small>阅读段落</small></div>
+      <div><span>2026-03-29 17:50</span><small>生成时间</small></div>
     </div>
     <div class="vp-transcript-search">
       <label for="episode-filter">快速筛选</label>
@@ -27,6 +27,17 @@ titleTemplate: false
 
   <section class="vp-transcript-grid">
     
+<article class="vp-transcript-card" data-episode-card data-filter="第206期 新软件危机 各位朋友大家好 欢迎来到后互联网时代的论坛 今天照例在周末的晚上 我跟我们王老师 大家好 还有老庄 大家好 我们一起来聊聊天 这一周的新闻非常多 所以我们先来看看最近的一些热点的事件 排第一个的就是这一周著名的人工智能…">
+  <p class="vp-transcript-meta">01:32:05 · 143 段</p>
+  <h3><SiteLink href="/episodes/ep-206">第206期 新软件危机</SiteLink></h3>
+  <p class="vp-transcript-summary">各位朋友大家好 欢迎来到后互联网时代的论坛 今天照例在周末的晚上 我跟我们王老师 大家好 还有老庄 大家好 我们一起来聊聊天 这一周的新闻非常多 所以我们先来看看最近的一些热点的事件 排第一个的就是这一周著名的人工智能…</p>
+  <div class="vp-transcript-links">
+    <SiteLink class="vp-transcript-button" href="/episodes/ep-206">阅读字幕</SiteLink>
+    <a class="vp-transcript-button is-subtle" href="https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/03/pie-ep206.mp3" target="_blank" rel="noreferrer">原始音频</a>
+  </div>
+</article>
+
+
 <article class="vp-transcript-card" data-episode-card data-filter="第205期 招学生还是ai 各位朋友大家好 欢迎来到后互联网时代的论坛 在上周我们的周年庆之后 这周我们又恢复到正常的节目 而且这周会有我们本月的谏书 我们先来点评几个近期的新闻和事件 首先肯定大家都很关注的就是伊朗的局势的进展 这个事儿就像我们…">
   <p class="vp-transcript-meta">02:16:47 · 208 段</p>
   <h3><SiteLink href="/episodes/ep-205">第205期 招学生还是AI</SiteLink></h3>

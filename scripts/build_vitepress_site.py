@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import argparse
 import html
+import re
 import shutil
 from datetime import datetime
 from pathlib import Path
@@ -9,26 +11,62 @@ from pathlib import Path
 import build_transcript_site as core
 
 
-DOCS_ROOT = core.ROOT / "docs"
-EPISODES_ROOT = DOCS_ROOT / "episodes"
-PUBLIC_SRT_ROOT = DOCS_ROOT / "public" / "pie-srt" / "v2"
-PUBLIC_WORDCLOUD_ROOT = DOCS_ROOT / "public" / "wordclouds"
+DEFAULT_DOCS_ROOT = core.ROOT / "docs"
 
 
 def yaml_quote(text: str) -> str:
     return "'" + text.replace("'", "''") + "'"
 
 
-def build_docs_root() -> None:
-    if EPISODES_ROOT.exists():
-        shutil.rmtree(EPISODES_ROOT)
-    if PUBLIC_SRT_ROOT.exists():
-        shutil.rmtree(PUBLIC_SRT_ROOT)
-    if PUBLIC_WORDCLOUD_ROOT.exists():
-        shutil.rmtree(PUBLIC_WORDCLOUD_ROOT)
-    EPISODES_ROOT.mkdir(parents=True, exist_ok=True)
-    PUBLIC_SRT_ROOT.mkdir(parents=True, exist_ok=True)
-    PUBLIC_WORDCLOUD_ROOT.mkdir(parents=True, exist_ok=True)
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Build or append VitePress transcript pages from nav markdown and SRT files."
+    )
+    parser.add_argument(
+        "--docs-root",
+        type=Path,
+        default=DEFAULT_DOCS_ROOT,
+        help=f"Docs directory to write. Default: {DEFAULT_DOCS_ROOT}",
+    )
+    parser.add_argument(
+        "--append-new",
+        action="store_true",
+        help="Only append the latest episodes that do not yet exist under docs/episodes.",
+    )
+    parser.add_argument(
+        "--fill-missing",
+        action="store_true",
+        help="Scan all episodes and fill only the missing docs pages, public SRT files, wordclouds, and index cards.",
+    )
+    return parser.parse_args()
+
+
+def get_docs_paths(docs_root: Path) -> tuple[Path, Path, Path]:
+    episodes_root = docs_root / "episodes"
+    public_srt_root = docs_root / "public" / "pie-srt" / "v2"
+    public_wordcloud_root = docs_root / "public" / "wordclouds"
+    return episodes_root, public_srt_root, public_wordcloud_root
+
+
+def build_docs_root(docs_root: Path) -> None:
+    episodes_root, public_srt_root, public_wordcloud_root = get_docs_paths(docs_root)
+    if episodes_root.exists():
+        shutil.rmtree(episodes_root)
+    if public_srt_root.exists():
+        shutil.rmtree(public_srt_root)
+    if public_wordcloud_root.exists():
+        shutil.rmtree(public_wordcloud_root)
+    episodes_root.mkdir(parents=True, exist_ok=True)
+    public_srt_root.mkdir(parents=True, exist_ok=True)
+    public_wordcloud_root.mkdir(parents=True, exist_ok=True)
+
+
+def ensure_docs_root(docs_root: Path) -> None:
+    episodes_root, public_srt_root, public_wordcloud_root = get_docs_paths(docs_root)
+    docs_root.mkdir(parents=True, exist_ok=True)
+    episodes_root.mkdir(parents=True, exist_ok=True)
+    public_srt_root.mkdir(parents=True, exist_ok=True)
+    public_wordcloud_root.mkdir(parents=True, exist_ok=True)
 
 
 def render_index(episodes: list[core.Episode]) -> str:
@@ -190,30 +228,204 @@ def render_block(block: core.Block, index: int) -> str:
 """
 
 
-def write_docs(episodes: list[core.Episode]) -> None:
-    (DOCS_ROOT / "index.md").write_text(render_index(episodes), encoding="utf-8")
-    for episode in episodes:
-        (EPISODES_ROOT / f"{episode.slug}.md").write_text(
-            render_episode_page(episode),
-            encoding="utf-8",
-        )
+def write_episode_assets(episode: core.Episode, docs_root: Path) -> None:
+    episodes_root, public_srt_root, public_wordcloud_root = get_docs_paths(docs_root)
+    (episodes_root / f"{episode.slug}.md").write_text(
+        render_episode_page(episode),
+        encoding="utf-8",
+    )
+    subtitle_text = episode.subtitle_file.read_text(encoding="utf-8-sig")
+    (public_srt_root / episode.subtitle_file.name).write_text(
+        subtitle_text,
+        encoding="utf-8-sig",
+    )
+    (public_wordcloud_root / f"{episode.slug}.svg").write_text(
+        core.build_wordcloud_svg(episode, kind="concept", background="#f7fbfb"),
+        encoding="utf-8",
+    )
+
+
+def write_missing_episode_assets(episode: core.Episode, docs_root: Path) -> dict[str, int]:
+    episodes_root, public_srt_root, public_wordcloud_root = get_docs_paths(docs_root)
+    written = {"pages": 0, "srts": 0, "wordclouds": 0}
+
+    episode_page = episodes_root / f"{episode.slug}.md"
+    if not episode_page.exists():
+        episode_page.write_text(render_episode_page(episode), encoding="utf-8")
+        written["pages"] += 1
+
+    public_srt = public_srt_root / episode.subtitle_file.name
+    if not public_srt.exists():
         subtitle_text = episode.subtitle_file.read_text(encoding="utf-8-sig")
-        (PUBLIC_SRT_ROOT / episode.subtitle_file.name).write_text(
-            subtitle_text,
-            encoding="utf-8-sig",
-        )
-        (PUBLIC_WORDCLOUD_ROOT / f"{episode.slug}.svg").write_text(
+        public_srt.write_text(subtitle_text, encoding="utf-8-sig")
+        written["srts"] += 1
+
+    public_wordcloud = public_wordcloud_root / f"{episode.slug}.svg"
+    if not public_wordcloud.exists():
+        public_wordcloud.write_text(
             core.build_wordcloud_svg(episode, kind="concept", background="#f7fbfb"),
             encoding="utf-8",
         )
+        written["wordclouds"] += 1
+
+    return written
+
+
+def write_docs(episodes: list[core.Episode], docs_root: Path) -> None:
+    (docs_root / "index.md").write_text(render_index(episodes), encoding="utf-8")
+    for episode in episodes:
+        write_episode_assets(episode, docs_root)
+
+
+def find_new_prefix_items(
+    nav_items: list[tuple[str, str, str]],
+    docs_root: Path,
+) -> list[tuple[str, str, str]]:
+    episodes_root, _, _ = get_docs_paths(docs_root)
+    new_items: list[tuple[str, str, str]] = []
+    for item in nav_items:
+        title, _, subtitle_rel = item
+        slug = core.slugify(title, subtitle_rel)
+        if (episodes_root / f"{slug}.md").exists():
+            break
+        new_items.append(item)
+    return new_items
+
+
+def parse_numeric_stat(index_text: str, label: str) -> int | None:
+    match = re.search(
+        rf"<div><span>(\d+)</span><small>{re.escape(label)}</small></div>",
+        index_text,
+    )
+    if not match:
+        return None
+    return int(match.group(1))
+
+
+def replace_stat(index_text: str, label: str, value: str) -> str:
+    pattern = re.compile(
+        rf"(<div><span>)([^<]+)(</span><small>{re.escape(label)}</small></div>)"
+    )
+    return pattern.sub(rf"\g<1>{value}\g<3>", index_text, count=1)
+
+
+def prepend_index_cards(index_text: str, episodes: list[core.Episode]) -> str:
+    marker = '<section class="vp-transcript-grid">'
+    rendered_cards = [
+        render_episode_card(episode).strip("\n")
+        for episode in episodes
+        if f'href="/episodes/{episode.slug}"' not in index_text
+    ]
+    if not rendered_cards:
+        return index_text
+    cards_block = "\n\n".join(rendered_cards)
+    indented_block = "\n".join(f"    {line}" if line else "" for line in cards_block.splitlines())
+    return index_text.replace(marker, f"{marker}\n{indented_block}\n", 1)
+
+
+def append_docs(episodes: list[core.Episode], docs_root: Path) -> int:
+    ensure_docs_root(docs_root)
+    index_path = docs_root / "index.md"
+
+    for episode in episodes:
+        write_episode_assets(episode, docs_root)
+
+    if not index_path.exists():
+        index_path.write_text(render_index(episodes), encoding="utf-8")
+        return len(episodes)
+
+    index_text = index_path.read_text(encoding="utf-8")
+    new_cards = [
+        episode for episode in episodes if f'href="/episodes/{episode.slug}"' not in index_text
+    ]
+    if not new_cards:
+        return 0
+
+    next_episode_count = (parse_numeric_stat(index_text, "集数") or 0) + len(new_cards)
+    next_block_count = (parse_numeric_stat(index_text, "阅读段落") or 0) + sum(
+        len(episode.blocks) for episode in new_cards
+    )
+    generated_at = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+    updated_index = prepend_index_cards(index_text, new_cards)
+    updated_index = replace_stat(updated_index, "集数", str(next_episode_count))
+    updated_index = replace_stat(updated_index, "阅读段落", str(next_block_count))
+    updated_index = replace_stat(updated_index, "生成时间", generated_at)
+    index_path.write_text(updated_index, encoding="utf-8")
+    return len(new_cards)
+
+
+def collect_missing_episodes(
+    episodes: list[core.Episode],
+    docs_root: Path,
+) -> list[core.Episode]:
+    episodes_root, public_srt_root, public_wordcloud_root = get_docs_paths(docs_root)
+    index_path = docs_root / "index.md"
+    index_text = index_path.read_text(encoding="utf-8") if index_path.exists() else ""
+
+    missing: list[core.Episode] = []
+    for episode in episodes:
+        page_missing = not (episodes_root / f"{episode.slug}.md").exists()
+        srt_missing = not (public_srt_root / episode.subtitle_file.name).exists()
+        wordcloud_missing = not (public_wordcloud_root / f"{episode.slug}.svg").exists()
+        card_missing = f'href="/episodes/{episode.slug}"' not in index_text
+        if page_missing or srt_missing or wordcloud_missing or card_missing:
+            missing.append(episode)
+    return missing
+
+
+def fill_missing_docs(episodes: list[core.Episode], docs_root: Path) -> dict[str, int]:
+    ensure_docs_root(docs_root)
+    missing_episodes = collect_missing_episodes(episodes, docs_root)
+    written = {"episodes": 0, "pages": 0, "srts": 0, "wordclouds": 0, "cards": 0}
+
+    if not missing_episodes:
+        return written
+
+    index_path = docs_root / "index.md"
+    index_text = index_path.read_text(encoding="utf-8") if index_path.exists() else ""
+    missing_cards = [
+        episode for episode in missing_episodes if f'href="/episodes/{episode.slug}"' not in index_text
+    ]
+
+    for episode in missing_episodes:
+        episode_written = write_missing_episode_assets(episode, docs_root)
+        written["episodes"] += 1
+        written["pages"] += episode_written["pages"]
+        written["srts"] += episode_written["srts"]
+        written["wordclouds"] += episode_written["wordclouds"]
+
+    if missing_cards:
+        written["cards"] = append_docs(missing_cards, docs_root)
+
+    return written
 
 
 def main() -> None:
+    args = parse_args()
+    docs_root = args.docs_root.resolve()
     nav_items = core.parse_nav(core.DEFAULT_NAV)
     episodes = core.build_episodes(nav_items)
-    build_docs_root()
-    write_docs(episodes)
-    print(f"generated {len(episodes)} VitePress pages under {DOCS_ROOT}")
+
+    if args.append_new:
+        new_items = find_new_prefix_items(nav_items, docs_root)
+        episodes = core.build_episodes(new_items)
+        appended = append_docs(episodes, docs_root)
+        print(f"appended {appended} new VitePress pages under {docs_root}")
+        return
+
+    if args.fill_missing:
+        written = fill_missing_docs(episodes, docs_root)
+        print(
+            "filled missing VitePress assets under "
+            f"{docs_root}: {written['pages']} pages, {written['srts']} srts, "
+            f"{written['wordclouds']} wordclouds, {written['cards']} index cards"
+        )
+        return
+
+    build_docs_root(docs_root)
+    write_docs(episodes, docs_root)
+    print(f"generated {len(episodes)} VitePress pages under {docs_root}")
 
 
 if __name__ == "__main__":
