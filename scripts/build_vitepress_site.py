@@ -28,15 +28,30 @@ def parse_args() -> argparse.Namespace:
         default=DEFAULT_DOCS_ROOT,
         help=f"Docs directory to write. Default: {DEFAULT_DOCS_ROOT}",
     )
-    parser.add_argument(
+    mode_group = parser.add_mutually_exclusive_group()
+    mode_group.add_argument(
         "--append-new",
         action="store_true",
         help="Only append the latest episodes that do not yet exist under docs/episodes.",
     )
-    parser.add_argument(
+    mode_group.add_argument(
         "--fill-missing",
         action="store_true",
         help="Scan all episodes and fill only the missing docs pages, public SRT files, wordclouds, and index cards.",
+    )
+    mode_group.add_argument(
+        "--episode",
+        action="append",
+        default=[],
+        metavar="SLUG",
+        help="Force rebuild a specific episode slug, e.g. ep-207. Repeat the flag to rebuild multiple episodes.",
+    )
+    mode_group.add_argument(
+        "--srt",
+        action="append",
+        default=[],
+        metavar="FILE",
+        help="Force rebuild by SRT file, e.g. pie-ep207.mp3.srt or ./pie-srt/v2/pie-ep207.mp3.srt. Repeat the flag to rebuild multiple episodes.",
     )
     return parser.parse_args()
 
@@ -277,19 +292,108 @@ def write_docs(episodes: list[core.Episode], docs_root: Path) -> None:
         write_episode_assets(episode, docs_root)
 
 
-def find_new_prefix_items(
+def read_utf8_sig_text(path: Path) -> str:
+    return path.read_text(encoding="utf-8-sig")
+
+
+def episode_needs_append(
+    item: tuple[str, str, str],
+    docs_root: Path,
+    index_text: str,
+) -> bool:
+    title, _, subtitle_rel = item
+    slug = core.slugify(title, subtitle_rel)
+    episodes_root, public_srt_root, public_wordcloud_root = get_docs_paths(docs_root)
+    episode_page = episodes_root / f"{slug}.md"
+    public_srt = public_srt_root / Path(subtitle_rel).name
+    public_wordcloud = public_wordcloud_root / f"{slug}.svg"
+
+    if not episode_page.exists():
+        return True
+    if not public_srt.exists():
+        return True
+    if not public_wordcloud.exists():
+        return True
+    if f'href="/episodes/{slug}"' not in index_text:
+        return True
+
+    subtitle_source = core.ROOT / subtitle_rel[2:]
+    if not subtitle_source.exists():
+        return False
+
+    return read_utf8_sig_text(subtitle_source) != read_utf8_sig_text(public_srt)
+
+
+def find_append_candidates(
     nav_items: list[tuple[str, str, str]],
     docs_root: Path,
 ) -> list[tuple[str, str, str]]:
-    episodes_root, _, _ = get_docs_paths(docs_root)
-    new_items: list[tuple[str, str, str]] = []
+    index_path = docs_root / "index.md"
+    index_text = index_path.read_text(encoding="utf-8") if index_path.exists() else ""
+    candidates: list[tuple[str, str, str]] = []
+    for item in nav_items:
+        if episode_needs_append(item, docs_root, index_text):
+            candidates.append(item)
+    return candidates
+
+
+def find_items_by_slug(
+    nav_items: list[tuple[str, str, str]],
+    requested_slugs: list[str],
+) -> list[tuple[str, str, str]]:
+    requested = {slug.strip() for slug in requested_slugs if slug.strip()}
+    if not requested:
+        return []
+
+    matched: list[tuple[str, str, str]] = []
+    seen: set[str] = set()
     for item in nav_items:
         title, _, subtitle_rel = item
         slug = core.slugify(title, subtitle_rel)
-        if (episodes_root / f"{slug}.md").exists():
-            break
-        new_items.append(item)
-    return new_items
+        if slug not in requested or slug in seen:
+            continue
+        matched.append(item)
+        seen.add(slug)
+
+    missing = sorted(requested - seen)
+    if missing:
+        raise SystemExit(f"unknown episode slug(s): {', '.join(missing)}")
+
+    return matched
+
+
+def normalize_srt_request(value: str) -> str:
+    text = value.strip()
+    if not text:
+        return text
+    if text.startswith("./"):
+        text = text[2:]
+    return Path(text).name
+
+
+def find_items_by_srt(
+    nav_items: list[tuple[str, str, str]],
+    requested_srts: list[str],
+) -> list[tuple[str, str, str]]:
+    requested = {normalize_srt_request(value) for value in requested_srts if value.strip()}
+    if not requested:
+        return []
+
+    matched: list[tuple[str, str, str]] = []
+    seen: set[str] = set()
+    for item in nav_items:
+        _, _, subtitle_rel = item
+        subtitle_name = Path(subtitle_rel).name
+        if subtitle_name not in requested or subtitle_name in seen:
+            continue
+        matched.append(item)
+        seen.add(subtitle_name)
+
+    missing = sorted(requested - seen)
+    if missing:
+        raise SystemExit(f"unknown srt file(s): {', '.join(missing)}")
+
+    return matched
 
 
 def parse_numeric_stat(index_text: str, label: str) -> int | None:
@@ -323,23 +427,27 @@ def prepend_index_cards(index_text: str, episodes: list[core.Episode]) -> str:
     return index_text.replace(marker, f"{marker}\n{indented_block}\n", 1)
 
 
-def append_docs(episodes: list[core.Episode], docs_root: Path) -> int:
+def append_docs(episodes: list[core.Episode], docs_root: Path) -> dict[str, int]:
     ensure_docs_root(docs_root)
     index_path = docs_root / "index.md"
+    episodes_root, _, _ = get_docs_paths(docs_root)
+    new_pages = 0
 
     for episode in episodes:
+        if not (episodes_root / f"{episode.slug}.md").exists():
+            new_pages += 1
         write_episode_assets(episode, docs_root)
 
     if not index_path.exists():
         index_path.write_text(render_index(episodes), encoding="utf-8")
-        return len(episodes)
+        return {"episodes": len(episodes), "new_pages": len(episodes), "new_cards": len(episodes)}
 
     index_text = index_path.read_text(encoding="utf-8")
     new_cards = [
         episode for episode in episodes if f'href="/episodes/{episode.slug}"' not in index_text
     ]
     if not new_cards:
-        return 0
+        return {"episodes": len(episodes), "new_pages": new_pages, "new_cards": 0}
 
     next_episode_count = (parse_numeric_stat(index_text, "集数") or 0) + len(new_cards)
     next_block_count = (parse_numeric_stat(index_text, "阅读段落") or 0) + sum(
@@ -352,7 +460,7 @@ def append_docs(episodes: list[core.Episode], docs_root: Path) -> int:
     updated_index = replace_stat(updated_index, "阅读段落", str(next_block_count))
     updated_index = replace_stat(updated_index, "生成时间", generated_at)
     index_path.write_text(updated_index, encoding="utf-8")
-    return len(new_cards)
+    return {"episodes": len(episodes), "new_pages": new_pages, "new_cards": len(new_cards)}
 
 
 def collect_missing_episodes(
@@ -396,7 +504,7 @@ def fill_missing_docs(episodes: list[core.Episode], docs_root: Path) -> dict[str
         written["wordclouds"] += episode_written["wordclouds"]
 
     if missing_cards:
-        written["cards"] = append_docs(missing_cards, docs_root)
+        written["cards"] = append_docs(missing_cards, docs_root)["new_cards"]
 
     return written
 
@@ -407,11 +515,34 @@ def main() -> None:
     nav_items = core.parse_nav(core.DEFAULT_NAV)
     episodes = core.build_episodes(nav_items)
 
-    if args.append_new:
-        new_items = find_new_prefix_items(nav_items, docs_root)
-        episodes = core.build_episodes(new_items)
+    if args.episode:
+        selected_items = find_items_by_slug(nav_items, args.episode)
+        episodes = core.build_episodes(selected_items)
         appended = append_docs(episodes, docs_root)
-        print(f"appended {appended} new VitePress pages under {docs_root}")
+        print(
+            f"processed {appended['episodes']} requested episode(s) under {docs_root} "
+            f"({appended['new_pages']} new pages, {appended['new_cards']} new index cards)"
+        )
+        return
+
+    if args.srt:
+        selected_items = find_items_by_srt(nav_items, args.srt)
+        episodes = core.build_episodes(selected_items)
+        appended = append_docs(episodes, docs_root)
+        print(
+            f"processed {appended['episodes']} requested episode(s) under {docs_root} "
+            f"({appended['new_pages']} new pages, {appended['new_cards']} new index cards)"
+        )
+        return
+
+    if args.append_new:
+        candidates = find_append_candidates(nav_items, docs_root)
+        episodes = core.build_episodes(candidates)
+        appended = append_docs(episodes, docs_root)
+        print(
+            f"processed {appended['episodes']} episode(s) under {docs_root} "
+            f"({appended['new_pages']} new pages, {appended['new_cards']} new index cards)"
+        )
         return
 
     if args.fill_missing:
