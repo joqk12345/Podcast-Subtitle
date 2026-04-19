@@ -1,3 +1,6 @@
+[第209期 张雪 vs 张雪峰](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/04/pie-ep209.mp3)
+[字幕](./pie-srt/v2/pie-ep209.mp3.srt)
+
 [第208期 做产品难](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/04/pie-ep208.mp3)
 [字幕](./pie-srt/v2/pie-ep208.mp3.srt)
 
