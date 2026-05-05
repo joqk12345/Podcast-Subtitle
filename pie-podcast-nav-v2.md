@@ -1,3 +1,6 @@
+[第211期 Manus 案的启示](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/05/pie-ep211.mp3)
+[字幕](./pie-srt/v2/pie-ep211.mp3.srt)
+
 [第210期 DeepSeek-V4](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/04/pie-ep210.mp3)
 [字幕](./pie-srt/v2/pie-ep210.mp3.srt)
 
