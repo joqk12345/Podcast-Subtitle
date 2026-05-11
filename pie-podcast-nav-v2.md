@@ -1,3 +1,6 @@
+[第212期 穷玩 AI](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/05/pie-ep212.mp3)
+[字幕](./pie-srt/v2/pie-ep212.mp3.srt)
+
 [第211期 Manus 案的启示](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/05/pie-ep211.mp3)
 [字幕](./pie-srt/v2/pie-ep211.mp3.srt)
 
