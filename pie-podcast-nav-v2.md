@@ -1,3 +1,6 @@
+[第214期 两部影片的故事](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/05/pie-ep214.mp3)
+[字幕](./pie-srt/v2/pie-ep214.mp3.srt)
+
 [第213期 懂王来了 ver. 2026](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/05/pie-ep213.mp3)
 [字幕](./pie-srt/v2/pie-ep213.mp3.srt)
 
