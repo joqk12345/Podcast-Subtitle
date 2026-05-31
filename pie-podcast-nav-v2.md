@@ -1,3 +1,6 @@
+[第215期 如何理解韬定律](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/05/pie-ep215.mp3)
+[字幕](./pie-srt/v2/pie-ep215.mp3.srt)
+
 [第214期 两部影片的故事](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/05/pie-ep214.mp3)
 [字幕](./pie-srt/v2/pie-ep214.mp3.srt)
 
