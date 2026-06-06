@@ -1,3 +1,6 @@
+[第216期 教育的体系性挑战](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/06/pie-ep216.mp3)
+[字幕](./pie-srt/v2/pie-ep216.mp3.srt)
+
 [第215期 如何理解韬定律](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/05/pie-ep215.mp3)
 [字幕](./pie-srt/v2/pie-ep215.mp3.srt)
 
