@@ -1,3 +1,6 @@
+[第218期 到底啥是 AGI](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/06/pie-ep218.mp3)
+[字幕](./pie-srt/v2/pie-ep218.mp3.srt)
+
 [第217期 一年一度话高考](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/06/pie-ep217.mp3)
 [字幕](./pie-srt/v2/pie-ep217.mp3.srt)
 
