@@ -1,3 +1,6 @@
+[第220期 美国 250 年](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/07/pie-ep220.mp3)
+[字幕](./pie-srt/v2/pie-ep220.mp3.srt)
+
 [第219期 AI对教育的惩罚？](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/06/pie-ep219.mp3)
 [字幕](./pie-srt/v2/pie-ep219.mp3.srt)
 
