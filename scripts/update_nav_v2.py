@@ -27,6 +27,7 @@ LINK_LINE_RE = re.compile(r"^\[(.+?)\]\((.+)\)\s*$")
 SUB_LINE_RE = re.compile(r"^\[字幕\]\(\./pie-srt/v2/(.+\.srt)\)\s*$")
 ORIG_EP_SRT_RE = re.compile(r"^第\s*(\d+)\s*期\s*(.+?)_原文\.srt$")
 ORIG_GENERIC_SRT_RE = re.compile(r"^(.+?)_原文\.srt$")
+ORIG_EP_MD_RE = re.compile(r"^第\s*(\d+)\s*期\s*(.+?)_原文\.md$")
 EP_LABEL_RE = re.compile(r"^第\s*(\d+)\s*期(?:\s+(.*))?$")
 URL_IN_LINE_RE = re.compile(r"https?://\S+")
 URL_EP_RE = re.compile(r"pie-ep(\d+)\.mp3$")
@@ -373,6 +374,44 @@ def find_title_and_rename(entry: UrlEntry, dry_run: bool = False) -> Tuple[Optio
     return None, False
 
 
+def find_unconverted_markdown(entry: UrlEntry) -> Optional[str]:
+    """Return an episode's Markdown transcript when no SRT is available yet."""
+    if entry.episode is None or not os.path.isdir(V2_DIR):
+        return None
+
+    for name in sorted(os.listdir(V2_DIR)):
+        match = ORIG_EP_MD_RE.match(name)
+        if match and int(match.group(1)) == entry.episode:
+            return name
+    return None
+
+
+def subtitle_is_available_or_renamable(entry: UrlEntry) -> Tuple[bool, Optional[str]]:
+    """Check prerequisites before changing the navigation file.
+
+    A raw ``_原文.srt`` can be renamed by ``find_title_and_rename``. Markdown
+    transcripts cannot: they must first be converted to the SRT format linked
+    from the navigation file.
+    """
+    target_path = os.path.join(V2_DIR, subtitle_name_for_media(entry.media_name))
+    if os.path.exists(target_path):
+        return True, None
+
+    if entry.episode is not None and os.path.isdir(V2_DIR):
+        for name in os.listdir(V2_DIR):
+            match = ORIG_EP_SRT_RE.match(name)
+            if match and int(match.group(1)) == entry.episode:
+                return True, None
+
+    markdown_name = find_unconverted_markdown(entry)
+    if markdown_name:
+        return False, (
+            f"episode {entry.episode}: found Markdown transcript {markdown_name}; "
+            "convert it to .srt before updating the navigation"
+        )
+    return False, f"{entry.media_name}: subtitle file not found"
+
+
 def should_insert_before(existing: NavEntry, new_entry: UrlEntry) -> bool:
     existing_date = parse_date_key(existing.url)
     new_date = new_entry.date_key
@@ -473,6 +512,13 @@ def validate_nav(lines: List[str]) -> List[str]:
         if identity:
             seen.add(identity)
 
+        url_episode = parse_episode_from_media_name(parse_media_name_from_url(entry.url))
+        label_episode = parse_episode_from_label(entry.label)
+        if label_episode is not None and url_episode is not None and label_episode != url_episode:
+            errors.append(
+                f"line {entry.start + 1}: label is ep{label_episode}, but URL points to ep{url_episode}"
+            )
+
         if entry.subtitle_name is None:
             errors.append(f"line {entry.start + 1}: missing subtitle line for {describe_entry(entry)}")
             continue
@@ -492,11 +538,28 @@ def validate_nav(lines: List[str]) -> List[str]:
 
 
 def run_check() -> int:
-    _ = parse_urls(URLS_PATH)
+    urls = parse_urls(URLS_PATH)
     with open(NAV_PATH, "r", encoding="utf-8") as handle:
         lines = [line.rstrip("\n") for line in handle]
 
     errors = validate_nav(lines)
+    entries_by_media: Dict[str, NavEntry] = {}
+    for entry in parse_entries(lines):
+        identity = entry_identity(entry)
+        if identity:
+            entries_by_media[identity] = entry
+
+    # urls.txt normally contains the batch currently being added, not the
+    # complete archive. Validate every item supplied in that batch.
+    for media_name, url_entry in urls.items():
+        nav_entry = entries_by_media.get(media_name)
+        if nav_entry is None:
+            errors.append(f"urls.txt entry missing from navigation: {media_name}")
+            continue
+        if nav_entry.url != url_entry.url:
+            errors.append(
+                f"line {nav_entry.start + 1}: URL differs from urls.txt for {media_name}"
+            )
     if errors:
         print("check failed")
         for err in errors:
@@ -569,6 +632,18 @@ def format_status(media_names: List[str], entries: Dict[str, UrlEntry]) -> str:
 
 def run_update(dry_run: bool = False) -> int:
     urls = parse_urls(URLS_PATH)
+
+    unavailable = [
+        reason
+        for entry in urls.values()
+        for available, reason in [subtitle_is_available_or_renamable(entry)]
+        if not available and reason
+    ]
+    if unavailable:
+        print("update aborted")
+        for reason in unavailable:
+            print(f"- {reason}")
+        return 1
 
     with open(NAV_PATH, "r", encoding="utf-8") as handle:
         lines = [line.rstrip("\n") for line in handle]
