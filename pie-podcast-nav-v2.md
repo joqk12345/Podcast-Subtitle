@@ -1,3 +1,6 @@
+[第222期 世界杯和中国足球](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/07/pie-ep222.mp3)
+[字幕](./pie-srt/v2/pie-ep222.mp3.srt)
+
 [第221期 长十乙王者归来](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/07/pie-ep221.mp3)
 [字幕](./pie-srt/v2/pie-ep221.mp3.srt)
 
