@@ -1,3 +1,6 @@
+[第224期 AI 大势加速演进](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/08/pie-ep224.mp3)
+[字幕](./pie-srt/v2/pie-ep224.mp3.srt)
+
 [第223期 2nd IMPACT](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/07/pie-ep223.mp3)
 [字幕](./pie-srt/v2/pie-ep223.mp3.srt)
 
