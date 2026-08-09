@@ -25,7 +25,9 @@ URLS_PATH = os.path.join(ROOT, "urls.txt")
 
 LINK_LINE_RE = re.compile(r"^\[(.+?)\]\((.+)\)\s*$")
 SUB_LINE_RE = re.compile(r"^\[字幕\]\(\./pie-srt/v2/(.+\.srt)\)\s*$")
-ORIG_EP_SRT_RE = re.compile(r"^第\s*(\d+)\s*期\s*(.+?)_原文\.srt$")
+# Episode transcripts may be named either with or without the historical
+# ``_原文`` suffix, e.g. ``第225期 BYD 白船事件.srt``.
+ORIG_EP_SRT_RE = re.compile(r"^第\s*(\d+)\s*期\s*(.+?)(?:_原文)?\.srt$")
 ORIG_GENERIC_SRT_RE = re.compile(r"^(.+?)_原文\.srt$")
 ORIG_EP_MD_RE = re.compile(r"^第\s*(\d+)\s*期\s*(.+?)_原文\.md$")
 EP_LABEL_RE = re.compile(r"^第\s*(\d+)\s*期(?:\s+(.*))?$")
