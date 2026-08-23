@@ -1,3 +1,6 @@
+[第227期 钟馗啥时候来](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/08/pie-ep227.mp3)
+[字幕](./pie-srt/v2/pie-ep227.mp3.srt)
+
 [第226期 龙餐馆告诉世界什么](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/08/pie-ep226.mp3)
 [字幕](./pie-srt/v2/pie-ep226.mp3.srt)
 
