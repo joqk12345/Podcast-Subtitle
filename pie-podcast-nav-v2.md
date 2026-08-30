@@ -1,3 +1,6 @@
+[第228期 机器人运动会](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/08/pie-ep228.mp3)
+[字幕](./pie-srt/v2/pie-ep228.mp3.srt)
+
 [第227期 钟馗啥时候来](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/08/pie-ep227.mp3)
 [字幕](./pie-srt/v2/pie-ep227.mp3.srt)
 
