@@ -1,3 +1,6 @@
+[第231期 Anthropic 求监管](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/09/pie-ep231.mp3)
+[字幕](./pie-srt/v2/pie-ep231.mp3.srt)
+
 [第230期 AI 公司偷袭数学界](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/09/pie-ep230.mp3)
 [字幕](./pie-srt/v2/pie-ep230.mp3.srt)
 
