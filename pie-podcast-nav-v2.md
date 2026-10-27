@@ -1,3 +1,6 @@
+[第235期 中国巴西大对账](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/10/pie-ep235.mp3)
+[字幕](./pie-srt/v2/pie-ep235.mp3.srt)
+
 [第231期 Anthropic 求监管](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/09/pie-ep231.mp3)
 [字幕](./pie-srt/v2/pie-ep231.mp3.srt)
 
