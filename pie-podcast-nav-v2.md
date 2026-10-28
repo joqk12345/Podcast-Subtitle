@@ -1,3 +1,6 @@
+[第236期 不一样的黑客松](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/10/pie-ep236.mp3)
+[字幕](./pie-srt/v2/pie-ep236.mp3.srt)
+
 [第235期 中国巴西大对账](https://cdn2.wavpub.com/hosting.wavpub.cn/wp-content/uploads/sites/28/2026/10/pie-ep235.mp3)
 [字幕](./pie-srt/v2/pie-ep235.mp3.srt)
 
